@@ -1,2 +1,9 @@
-
+.videos {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    
+}
 
