@@ -98,7 +98,7 @@ img {
 .bth:hover {
     background: transparent;
     color: var(--color-white);
-    border-color: var(--color-white);
+    border-color: var(--color-black);
 }
 
 .btn-primary {
