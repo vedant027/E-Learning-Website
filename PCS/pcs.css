@@ -1,4 +1,3 @@
-
 :root {
     /* --primary : linear-gradient(to bottom right, #0a0057, #3f00ee); */
     --secondary : gold;
@@ -46,7 +45,7 @@ body {
     align-items: center;
 }
 
-                                               /* Navbar */
+     /* ============================================= Navbar ========================================== */
 
 nav {
     background: var(--color-bg2);
@@ -135,13 +134,13 @@ nav button{
 
 .content {
     width: 100vw;
-
+    margin-top: 7rem;
     display: grid;
     grid-template-columns: 1.8fr 1.2fr;
     gap: 1rem;
     
-    padding: .5rem 1rem;
-    text-transform: capitalize;
+    /* padding: .5rem 1rem; */
+    
 }
 
 @media screen and (max-width: 990px) {
@@ -153,6 +152,7 @@ nav button{
 .main-video, .video-playlist {
     width: 100%;
     height: 30rem;
+    padding: .5rem 1rem;
 }
 
 .main-video .title {
@@ -184,7 +184,7 @@ nav button{
     background-color: #fff;
 }
 
-.video-playlist .videos .video {
+.video-playlist .videos .iframe {
     position: relative;
     width: 100%;
     height: 4rem;
@@ -200,11 +200,11 @@ nav button{
     border-radius: .5rem;
 }
 
-.video-playlist .videos .video:hover {
+.video-playlist .videos .iframe:hover {
     background-color: #0003;
 }
 
-.video-playlist .videos .video.active {
+.video-playlist .videos .iframe.active {
     background-color: #0003;
     color: var(--secondary);
 }
@@ -214,7 +214,7 @@ nav button{
     border-radius: .5rem;
 }
 
-.video img {
+.iframe img {
     position: absolute;
     left: 1rem;
     top: 50%;
@@ -226,15 +226,15 @@ nav button{
     filter: invert(100%);
 }
 
-.video-playlist .videos .video.active img {
+.video-playlist .videos .iframe.active img {
     filter: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
 }
 
-.video p {
+.iframe p {
    margin-left: 2.5rem;
 }
 
-.video h3 {
+.iframe h3 {
     width: 23rem;
     white-space: nowrap;
     overflow: hidden;
@@ -244,18 +244,124 @@ nav button{
     padding: 0 .5rem;
 }
 
+/* .video-title {
+    background-color: #424890;
+} */
+
+.panel-heading {
+    background-color: #424890;
+    border-radius: 100px;
+}
+
+#collapse1 {
+    background-color: #424890;
+}
+
+/* ================================= DropDown Menu ===================== */
+
+/* .dropdown {
+    min-width: 15rem;
+    position: relative;
+    margin: 0.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30rem;
+} 
+.dropdown * {
+    box-sizing: border-box;
+}
+.custom-dropdown {
+    background: #2a2f3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #00bf8e solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.select {
+    background: #2a2f3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #00bf8e solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.select-clicked {
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.select:hover {
+    background: #323741
+}
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+.caret-rotate {
+    transform: rotate(180deg);
+}
+.menu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%); 
+    opacity: 0; 
+    display: none;
+    transition: 0.2s;
+    z-index: 1; 
+}
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.menu li:hover {
+    background: #2a2d35;
+}
+.active {
+    background: #23242a;
+}
+.menu-open {
+    display: block;
+    opacity: 1;
+} */
+
 
 /* ================================= FOOTER ========================= */
 footer {
     background: var(--color-bg1);
     padding-top: 5rem;
     font-size: 0.9rem;
+    margin-top: 30rem;
+    
 }
 
 .footer__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
+    gap: 10rem;
+
 }
 
 .footer__container > div h4 {
@@ -286,4 +392,8 @@ footer ul li a:hover {
     margin-top: 4rem;
     padding: 1.2rem 0;
     border-top: 1px solid var(--color-bg2);
+}
+
+footer, .content  {
+    grid-column: 1 / -1;
 }
