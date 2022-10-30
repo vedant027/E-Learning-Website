@@ -244,22 +244,11 @@ nav button{
     padding: 0 .5rem;
 }
 
-/* .video-title {
-    background-color: #424890;
-} */
 
-.panel-heading {
-    background-color: #424890;
-    border-radius: 100px;
-}
-
-#collapse1 {
-    background-color: #424890;
-}
 
 /* ================================= DropDown Menu ===================== */
 
-/* .dropdown {
+.dropdown {
     min-width: 15rem;
     position: relative;
     margin: 0.5em;
@@ -267,10 +256,12 @@ nav button{
     justify-content: center;
     width: 30rem;
 } 
+
 .dropdown * {
     box-sizing: border-box;
 }
-.custom-dropdown {
+
+/* .dropdown {
     background: #2a2f3b;
     color: #fff;
     display: flex;
@@ -281,7 +272,8 @@ nav button{
     padding: 1em;
     cursor: pointer;
     transition: 0.3s;
-}
+} */
+
 .select {
     background: #2a2f3b;
     color: #fff;
@@ -294,13 +286,16 @@ nav button{
     cursor: pointer;
     transition: 0.3s;
 }
+
 .select-clicked {
     border: 2px #26489a solid;
     box-shadow: 0 0 0.8em #26489a;
 }
+
 .select:hover {
-    background: #323741
+    background: #323741;
 }
+
 .caret {
     width: 0;
     height: 0;
@@ -309,9 +304,11 @@ nav button{
     border-top: 6px solid #fff;
     transition: 0.3s;
 }
+
 .caret-rotate {
     transform: rotate(180deg);
 }
+
 .menu {
     list-style: none;
     padding: 0.2em 0.5em;
@@ -325,27 +322,31 @@ nav button{
     left: 50%;
     width: 100%;
     transform: translateX(-50%); 
-    opacity: 0; 
+    opacity: 0;  
     display: none;
     transition: 0.2s;
     z-index: 1; 
 }
+
 .menu li {
     padding: 0.7em 0.5em;
     margin: 0.3em 0;
     border-radius: 0.5em;
     cursor: pointer;
 }
+
 .menu li:hover {
     background: #2a2d35;
 }
+
 .active {
     background: #23242a;
 }
+
 .menu-open {
     display: block;
     opacity: 1;
-} */
+}
 
 
 /* ================================= FOOTER ========================= */
