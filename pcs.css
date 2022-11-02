@@ -541,6 +541,10 @@ footer, .content  {
     width: 23.5rem;
 }
 
+.video-playlist .title {
+    margin-top: 14px;
+}
+
 
 .module-list-wrapper {
     width: 23.5rem;
@@ -549,7 +553,7 @@ footer, .content  {
 
 .module-container {
     width: 22.5rem;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     
 }
