@@ -538,18 +538,24 @@ footer, .content  {
 
 /* ======================================= VIDEO SECTION ========================== */
 .main-video iframe {
-    width: 34rem;
+    width: 23.5rem;
 }
 
 
 .module-list-wrapper {
-    width: 34rem;
+    width: 23.5rem;
+    
 }
 
 .module-container {
-    width: 32.5rem;
+    width: 22.5rem;
     font-size: 20px;
     font-weight: 200;
+    
+}
+
+.module-name {
+    font-size: 16px;
 }
 
 
