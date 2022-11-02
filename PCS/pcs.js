@@ -1,92 +1,81 @@
-// ============================== NAVBAR ==================================
+// ============================== NAVBAR ================================== //
 
 // change navbar styles on scroll
 
 window.addEventListener('scroll', () => {
   document.querySelector('nav').classList.toggle
-    ('window-scroll', window.scrollY > 0)
+  ('window-scroll', window.scrollY > 0);
+});
+
+// show/hide nav menu
+
+const menu = document.querySelector(".nav__menu");
+const menuBtn = document.querySelector("#open-menu-btn");
+const closeBtn = document.querySelector("#close-menu-btn");
+
+
+menuBtn.addEventListener('click' , () => {
+   menu.style.display = "flex";
+   closeBtn.style.display = "inline-block";
+   menuBtn.style.display = "none";
 })
 
 
+// close nav menu
+const closeNav = () => {
+  menu.style.display = "none";
+   closeBtn.style.display = "none";
+   menuBtn.style.display = "inline-block";
+}
 
+closeBtn.addEventListener('click', closeNav)
 
+// ============================= VIDEO SECTION & DROPDOWN ============================== //
 
-// ============================== DROPDOWN =================================
-
-const dropdowns = document.querySelectorAll('.dropdown');
-//Loop through all dropdown elements
-dropdowns.forEach(dropdown => {
-  //Get inner elements from each dropdown
-  const select = dropdown.querySelector('.select');
-  const caret = dropdown.querySelector('.caret');
-  const menu = dropdown.querySelector('.menu');
-  const options = dropdown.querySelectorAll('.menu li');
-  const selected = dropdown.querySelectorAll('.selected');
-
-
-
-  //Add a click event to the select element
-  select.addEventListener('click', () => {
-    //Add the clicked select styles to the select element
-    select.classList.toggle('select-clicked');
-    //Add the rotate styles to the caret element
-    caret.classList.toggle('caret-rotate');
-    //Add the open styles to the menu element
-    menu.classList.toggle('menu-open');
-  });
-
-
-  //Loop through all option elements
-  options.forEach(option => {
-    //Add a click event to the option element
-    option.addEventListener('click', () => {
-      //Change selected inner text to clicked option inner text
-      selected.innerText = option.innerText;
-      select.classList.remove('select-clicked');
-      //Add the rotate styles to the caret element
-      caret.classList.remove('caret-rotate');
-      //Add the open styles to the menu element
-      menu.classList.remove('menu-open');
-      //Remove active class from all option elements
-      options.forEach(option => {
-        option.classList.remove('active');
-      });
-      //Add active class to clicked option element
-      option.classList.add('active');
-    });
-  });
-});
-
-
-// ================================== Video Section ================================ 
-
-const videoPlayer = document.querySelector("iframe");
+const videoPlayer = document.querySelector('iframe');
 const videoTitle = document.querySelector('.video-title');
-
-// const title = data.target.getAttribute('data-title');
-// const list = document.querySelector('.module-list');
-// console.log('data------:', list);
-
-// list.addEventListener('click', (data) => {
-//   console.log('data------:', data.target);
-//   const videoId = data.target.getAttribute('data-id');
-//   console.log('data------:', videoId);
- 
-//   let videoUrl = `https://www.youtube.com/embed/${videoId}?rel=0`;
-//   videoPlayer.setAttribute("src", videoUrl);
-
-//   videoTitle.innerHTML = title;
-// });
-
 
 const showVideo = (videoId, title) => {
   let videoUrl = `https://www.youtube.com/embed/${videoId}?rel=0`;
-  videoPlayer.setAttribute("src", videoUrl);
+  videoPlayer.setAttribute('src', videoUrl);
   videoTitle.innerHTML = title;
 };
 
-videoPlayer.forEach((v) => {
-  v.addEventListener("click", () => {
-    showVideo(v.dataset.id, v.dataset.title);
+const allModules = document.querySelectorAll('.module-list-wrapper .module-container');
+
+allModules.forEach((currentModule) => {
+  const module = currentModule.querySelector('.module');
+  const allLessons = currentModule.querySelectorAll('.module-lesson');
+  
+  module.addEventListener('click', (data) => {
+    const caret = module.querySelector('.caret');
+    const lessonsWrapper = currentModule.querySelector('.module-items');
+    const itemsHidden = lessonsWrapper.classList.toggle('items-hidden');
+
+    if (itemsHidden) {
+      allLessons.forEach((lesson) => {
+        lesson.classList.remove('selected-lesson');    
+      });
+    }
+
+    caret.classList.toggle('.caret-rotate'); 
   });
+
+
+  allLessons.forEach((lesson) => {
+    lesson.addEventListener('click', (data) => {
+      allLessons.forEach((item) => {
+        item.classList.remove('selected-lesson');
+        // caret.classList.toggle('.caret-rotate');
+      });
+
+      const videoId = data.currentTarget.getAttribute('data-id');
+      const videoTitle = data.currentTarget.getAttribute('data-title');
+      lesson.classList.add('selected-lesson');
+
+      showVideo(videoId, videoTitle);
+    });
+
+  });
+
 });
