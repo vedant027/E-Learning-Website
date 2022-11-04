@@ -379,6 +379,21 @@ footer, .content  {
     background: rgb(129, 126, 153);
 }
 
+.notes {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.notes:hover {
+    background: #3f3d4a;
+}
+
 .caret {
     width: 0;
     height: 0;
