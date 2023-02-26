@@ -103,7 +103,12 @@ img {
 
 .btn-primary {
     background: var(--color-danger);
+    border-radius: 1.8rem;
     color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-red);
 }
 
 /* =========================== NAVBAR ========================== */
@@ -247,33 +252,88 @@ header {
 
 /* ======================= Subjects ====================== */
 .courses {
- /*  margin-top: 10rem;  */
    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5); 
+   border: 0.3rem solid var(--color-primary);
 }
 
 .courses__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    width: 65%;
 }
 
 .courses {
     background: var(--color-bg1);
     text-align: center;
- /*   border: 1px solid transparent;  */
     transition: var(--transition);
+    padding-bottom: 1rem;
 }
 
 .courses:hover {
     background: transparent;
-    border-color: var(--color-primary);
+    border: 0.2rem solid #00bf8e;
+}
+
+.courses_pageheading {
+    font-size: 2.5rem;
 }
 
 .courses__Info {
-    padding: 2rem;
+    padding: 1.5rem;
+}
+
+.courses__Info h4 {
+    font-size: 1.8rem;
 }
 
 .courses__Info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.courses__btn {
+    font-size: 1.1rem;
+}
+
+/* ======================= SEM V Subjects ====================== */
+.sem5subjects {
+  /*  margin-top: 10rem;  */
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5); 
+}
+   
+.sem5subjects__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+   
+.sem5subjects {
+    background: var(--color-bg1);
+    text-align: center;
+    /*   border: 1px solid transparent;  */
+    transition: var(--transition);
+    border-radius: 1rem;
+}
+   
+.sem5subjects:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.sem5subjects_image {
+    border-radius: 0.5rem;
+}
+
+.sem5_subjectspage_heading {
+    font-size: 2.5rem;
+}
+   
+.sem5subjects__Info {
+    padding: 2rem;
+}
+   
+.sem5subjects__Info p {
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
 }
@@ -298,7 +358,9 @@ box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
     gap: 1.4rem;
     height: fit-content;
     background: var(--color-primary);
+    border-radius: 1.8rem;
     cursor: pointer;
+    margin: 0 1rem 0.5rem 0; 
 }
 
 .faq h4 {
@@ -347,9 +409,11 @@ box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 
 .testimonial__body {
     background: var(--color-primary);
+    border-radius: 1.8rem;
     padding: 2rem;
     margin-top: 3rem;
     position: relative;
+    margin-bottom: 3rem;
 }
 
 .testimonial__body::before {
@@ -475,6 +539,9 @@ footer ul li a:hover {
         animation-delay: 600ms;
      }
 
+     .nav__menu li:nth-child(5) {
+        animation-delay: 800ms;
+     }
 
      @keyframes animateNavItems {
         0% {
@@ -528,13 +595,23 @@ footer ul li a:hover {
         margin-right: 0;
      }
  
-     /* ======================= OUR POPULAR SUBJECTS =========================== */
+     /* ======================= SUBJECTS =========================== */
 
      .courses {
         margin-top: 0;
      }
 
      .courses__container {
+        grid-template-columns: 1fr 1fr;
+     }
+
+     /* ======================= SEM V SUBJECTS =========================== */
+
+     .sem5subjects {
+       margin-top: 0;
+     }
+
+     .sem5subjects__container {
         grid-template-columns: 1fr 1fr;
      }
 
@@ -597,10 +674,15 @@ footer ul li a:hover {
     display: inline-block;
   }
 
-  /* ====================================== OUR POPULAR SUBJECTS ================================= */
+  /* ====================================== SUBJECTS ================================= */
   .courses__container {
     grid-template-columns: 1fr;
   }
+
+   /* ====================================== SEM V SUBJECTS ================================= */
+   .sem5subjects__container {
+    grid-template-columns: 1fr;
+   }
 
   /* ====================================== TESTIMONIALS ================================= */
   .testimonial__body {
