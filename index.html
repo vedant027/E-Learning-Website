@@ -17,6 +17,8 @@
 
   <!--- SWIPER JS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  <!-- CSS STYLESHEET -->
   <link rel="stylesheet" href="./css/style.css">
 
   <!-- Google tag (gtag.js) -->
@@ -39,7 +41,7 @@
                 <li><a href="subjects.html">Subjects</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="index.html">Sign In</a></li>
+                <li><a href="login.html">Sign In</a></li>
             </u1>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -50,14 +52,17 @@
 
 
     <header>
+       <!-- HOME PAGE -->
         <div class="container header__container">
                <div class="header__left">
-                <h1>Learn Electronics Subjects at your Comfort</h1>
+                <h1 class="header__left-h1">Learn Electronics Subjects <span class="auto-type"></span></h1>
+                <div class="header__left-para">
                 <p>
                  Explore EduElex and develop your fundamentals of electronics subjects and skills in a simplified way
                  and be prepared for your exams.
                 </p>
                 <a href="subjects.html" class="btn btn-primary">Get Started</a>
+            </div>
             </div>
         
         
@@ -87,35 +92,17 @@
         <div class="categories__right">
 
         <article class="category">
-            <span class="category__icon"><i class="uil uil-comparison"></i></span>
-            <h5>PCS</h5>
-            <p>Develop your fundamental understanding of control systems.</p>
+            <span><img class="category__image" src="Images/sem5_image2.png" alt="sem5-img"></span>
+            <h5 class="category-right-heading">SEM V</h5>
+            <p class="category-right-info">Learn about <br> PCS,&nbsp; DSP,&nbsp; LIC,&nbsp; DCOM,&nbsp; NNFL</p>
         </article>
 
         <article class="category">
-            <span class="category__icon"><i class="uil uil-signal-alt"></i></span>
-            <h5>DSP</h5>
-            <p>Unveil advances in digital signal processors and real world applications.</p>
+            <span><img class="category__image" src="Images/sem6_image2.png" alt="sem6-img"></span>
+            <h5 class="category-right-heading">SEM VI</h5>
+            <p class="category-right-info">Learn about <br> BVLSI,&nbsp; EE,&nbsp; CCN,&nbsp; ESRTOS,&nbsp; ML</p>
         </article>
         
-        <article class="category">
-            <span class="category__icon"><i class="uil uil-circuit"></i></span>
-            <h5>LIC</h5>
-            <p>Learn fundamental principles of standard linear integrated circuits.</p>
-        </article>
-
-        <article class="category">
-            <span class="category__icon"><i class="uil uil-thunderstorm"></i></span>
-            <h5>DCOM</h5>
-            <p>Learn the subsystems of a digital communication system.</p>
-        </article>
-
-        <article class="category">
-            <span class="category__icon"><i class="uil uil-telescope"></i></span>
-            <h5>NNFL</h5>
-            <p>Learn fundamentals of artifical network systems and fuzzylogic.</p>
-        </article>
-
         </div>
         </div>
     </section>
@@ -136,7 +123,7 @@
                 <h4>What is EduElex ?</h4>
         <p>EduElex is a free online resource that helps students, and engineers learn with the help of
             youtube videos. Our website has several videos on theory concepts along with notes 
-            related to current syllabus. We have uploaded more than 100+ youtube videos on our
+            related to current syllabus. We have uploaded more than 200+ youtube videos on our
              website.</p>
             </div>
         </article>
@@ -145,7 +132,7 @@
             <div class="faq__icon"><i class="uil uil-plus"></i></div>
             <div class="question__answer">
                 <h4>Which Subjects does EduElex offers ?</h4>
-        <p>Their are 5 different subjects on EduElex website which include PCS, DSP, LIC, DCOM and NNFL that are 
+        <p>Their are 10 different subjects on EduElex website which includes all SEM V and SEM VI subjects that are 
             curated module-wise along with notes.
         </p>
             </div>
@@ -335,11 +322,18 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="JS/main.js"></script>
 
     <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["at your Comfort", "Anytime, Anywhere", "using Videos and Notes."],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        })
         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 1,
           spaceBetween: 30,
@@ -354,6 +348,7 @@
         }
       }
     });
+
     </script>
 
 </body>

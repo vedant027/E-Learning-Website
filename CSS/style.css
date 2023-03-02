@@ -174,6 +174,52 @@ header {
     margin: 1rem 0 2.4rem;
 }
 
+.header__left-h1 {
+    font-size: 2.4rem;
+}
+
+.header__left-para {
+    position: relative;
+    top: 1rem;
+}
+
+.auto-type {
+    color: var(--color-danger);
+}
+
+.header__right-image img {
+    margin-top: 20px;
+    opacity: 0;
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 0s, 1s;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-24px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 /* ======================= CATEGORIES ====================== */
 .categories {
     background: var(--color-bg1);
@@ -200,13 +246,13 @@ header {
 
 .categories__right {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
 }
 
 .category {
     background: var(--color-bg2);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 2rem;
     transition: var(--transition);
 }
@@ -236,10 +282,24 @@ header {
     background: var(--color-primary);
 }
 
-.category__icon {
+/* .category__icon {
     background: var(--color-primary);
     padding: 0.7rem;
     border-radius: 0.9rem;
+} */
+
+.category__image {
+    border-radius: 1.5rem;
+}
+
+.category-right-heading {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.category-right-info {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .category h5 {
@@ -247,7 +307,7 @@ header {
 }
 
 .category p {
-    font-size: 0.85rem;
+    font-size: 0.88rem;
 }
 
 /* ======================= Subjects ====================== */
@@ -334,6 +394,49 @@ header {
 }
    
 .sem5subjects__Info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+/* ======================= SEM VI Subjects ===================== */
+
+.sem6subjects {
+    /*  margin-top: 10rem;  */
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5); 
+}
+     
+.sem6subjects__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+     
+.sem6subjects {
+    background: var(--color-bg1);
+    text-align: center;
+    /*   border: 1px solid transparent;  */
+    transition: var(--transition);
+    border-radius: 1rem;
+}
+     
+.sem6subjects:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+  
+.sem6subjects_image {
+    border-radius: 0.5rem;
+}
+  
+.sem6_subjectspage_heading {
+    font-size: 2.5rem;
+}
+     
+.sem6subjects__Info {
+    padding: 2rem;
+}
+     
+.sem6subjects__Info p {
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
 }
@@ -615,6 +718,16 @@ footer ul li a:hover {
         grid-template-columns: 1fr 1fr;
      }
 
+     /* ======================= SEM VI SUBJECTS ========================== */
+
+     .sem6subjects {
+        margin-top: 0;
+      }
+ 
+      .sem6subjects__container {
+         grid-template-columns: 1fr 1fr;
+      }
+
      /* ======================= FAQs =========================== */
     .faqs__container {
         grid-template-columns: 1fr;
@@ -674,6 +787,10 @@ footer ul li a:hover {
     display: inline-block;
   }
 
+  .category p {
+    font-size: 0.78rem;
+  }
+
   /* ====================================== SUBJECTS ================================= */
   .courses__container {
     grid-template-columns: 1fr;
@@ -681,6 +798,11 @@ footer ul li a:hover {
 
    /* ====================================== SEM V SUBJECTS ================================= */
    .sem5subjects__container {
+    grid-template-columns: 1fr;
+   }
+
+   /* ====================================== SEM VI SUBJECTS ================================ */
+   .sem6subjects__container {
     grid-template-columns: 1fr;
    }
 
@@ -705,4 +827,3 @@ footer ul li a:hover {
   }
 
 }
-
