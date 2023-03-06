@@ -159,10 +159,10 @@ if(isset($_POST['save'])){
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Create Session and Term</h1>
+            <h1 class="h3 mb-0 sub-heading">Create Session and Term</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Create Session and Term<</li>
+              <li class="breadcrumb-item active" aria-current="page">Create Session and Term</li>
             </ol>
           </div>
 
@@ -189,7 +189,7 @@ if(isset($_POST['save'])){
                         $num = $result->num_rows;		
                         if ($num > 0){
                           echo ' <select required name="termId" class="form-control mb-3">';
-                          echo'<option value="">--Select Tern--</option>';
+                          echo'<option value="">--Select Term--</option>';
                           while ($rows = $result->fetch_assoc()){
                           echo'<option value="'.$rows['Id'].'" >'.$rows['termName'].'</option>';
                               }

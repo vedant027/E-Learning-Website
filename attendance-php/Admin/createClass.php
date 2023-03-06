@@ -124,7 +124,7 @@ if(isset($_POST['save'])){
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Create Class</h1>
+            <h1 class="h3 mb-0 sub-heading">Create Class</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Create Class</li>
@@ -175,7 +175,7 @@ if(isset($_POST['save'])){
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
-                        <th>#</th>
+                        <th>Sr No.</th>
                         <th>Class Name</th>
                         <th>Edit</th>
                         <th>Delete</th>

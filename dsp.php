@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduElex</title>
 
-    <link rel="stylesheet" href="CSS/dsp.css">
+    <link rel="stylesheet" href="CSS/videos.css">
     
     <!-- ICONSCOUT CDN-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -35,15 +35,15 @@
     <header>
       <nav>
         <div class="container nav__container">
-          <a href="index.html">
+          <a href="index.php">
             <h3>EduElex</h3>
           </a>
           <u1 class="nav__menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="subjects.html">Subjects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="index.html">Sign In</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="subjects.php">Subjects</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php">Sign In</a></li>
           </u1>
           <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
           <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -932,7 +932,7 @@
       <footer>
         <div class="container footer__container">
           <div class="footer__1">
-            <a href="index.html" class="footer__logo">
+            <a href="index.php" class="footer__logo">
               <h4>EduElex</h4>
             </a>
             <p>Learn Electronics Subjects at your Comfort.</p>
@@ -941,10 +941,10 @@
           <div class="footer__2">
             <h4>Permalinks</h4>
             <ul class="permalinks">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="subjects.html">Subjects</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="subjects.php">Subjects</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
 
@@ -993,6 +993,6 @@
       </footer>
     </main>
 
-    <script src="JS/dsp.js"></script>
+    <script src="JS/videos.js"></script>
   </body>
 </html>

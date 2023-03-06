@@ -683,10 +683,22 @@ footer ul li a:hover {
         padding-bottom: 3rem;
      }
 
+     .header__left {
+       margin-bottom: 5rem;
+     }
+
+     .header__right-image {
+       margin-bottom: 5rem;
+       
+     }
+
+
+
      /* ======================= CATEGORIES =========================== */
  
      .categories {
         height: auto;
+        margin-top: 8rem;
      }
 
      .categories__container {

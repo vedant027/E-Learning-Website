@@ -1,1 +1,1 @@
-  <title>AMS - Dashboard</title>
+  <title>EduElex - Admin Login</title>

@@ -80,8 +80,7 @@ const signIn=()=>{
 
 }
 
-// Linking to php page
-
-document.getElementById("button1").addEventListener("click", function(){ 
-    document.getElementById("form1").submit(); 
-    }); 
+// // Linking Faculty Login button to login panel
+// function facultyLogin() {
+// 	window.location.href = 'attendance-php/index.php';
+// } 

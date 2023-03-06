@@ -4,6 +4,24 @@
   src: url(../font/Nunito-Regular.ttf) format("ttf"),
     url(../font/Nunito-Regular.ttf) format("truetype");
 }
+
+:root {
+  --color-primary: #6c63ff;
+  --color-success: #00bf8e;
+  --color-warning: #f7c94b;
+  --color-danger: #f75842;
+  --color-red: #f02a10;
+  --color-danger-variant: rgba(247, 88, 66, 0.4);
+  --color-white: #fff;
+  --color-grey: rgba(201, 192, 192, 0.986);
+  --color-light: rgba(248, 0, 0, 0.7);
+  --color-black: #000;
+  --color-bg: #1f2641;
+  --color-bg1: #2e3267;
+  --color-bg2: #424890;
+
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -632,7 +650,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 0.65rem;
-  color: #b7b9cc;
+  color: #6777ef;
 }
 .sidebar .nav-item .collapse .collapse-inner .collapse-item,
 .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
@@ -879,7 +897,7 @@ a:focus {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 0.65rem;
-    color: #b7b9cc;
+    color: #6777ef;
   }
   .sidebar.toggled .nav-item .collapse .collapse-inner .collapse-item,
   .sidebar.toggled .nav-item .collapsing .collapse-inner .collapse-item {
@@ -1622,28 +1640,6 @@ body.sidebar-toggled footer.sticky-footer {
   border-color: #3f51b5;
 }
 
-:root {
-  --color-primary: #6c63ff;
-  --color-success: #00bf8e;
-  --color-warning: #f7c94b;
-  --color-danger: #f75842;
-  --color-red: #f02a10;
-  --color-danger-variant: rgba(247, 88, 66, 0.4);
-  --color-white: #fff;
-  --color-grey: rgba(201, 192, 192, 0.986);
-  --color-light: rgba(248, 0, 0, 0.7);
-  --color-black: #000;
-  --color-bg: #1f2641;
-  --color-bg1: #2e3267;
-  --color-bg2: #424890;
-
-  --container-width-lg: 80%;
-  --container-width-md: 90%;
-  --container-width-sm: 94%;
-
-  --transition: all 400ms ease;
-}
-
 /* Class Teacher Login */
 
 .card {
@@ -1698,7 +1694,10 @@ th.sorting {
     color: #000;
 }
 
-.dataTables__info {
+.dataTables_info {
     color: #fff;
 }
 
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}

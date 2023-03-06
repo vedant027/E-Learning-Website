@@ -3,7 +3,7 @@
         <div class="sidebar-brand-icon" >
           <img src="img/logo/attnlg.jpg">
         </div>
-        <div class="sidebar-brand-text mx-3">AMS</div>
+        <div class="sidebar-brand-text mx-3">EduElex</div>
       </a>
       <hr class="sidebar-divider my-0">
       <li class="nav-item active">
@@ -169,5 +169,5 @@
         </a>
       </li> -->
       <hr class="sidebar-divider">
-      <div class="version" id="version-ruangadmin"></div>
+      <!-- <div class="version" id="version-ruangadmin"></div> -->
     </ul>

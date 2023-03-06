@@ -1,1 +1,1 @@
-E-Learning Website made using HTML, CSS and Javascript. This Website was made with the intention to help our batchmates to prepare for their End-Sem Exams by curating all the study materials at a single place which includes free online videos, notes, important question bank, etc.
+E-Learning Website is made using HTML, CSS and Javascript. This Website was made with the intention to help our batchmates to prepare for their End-Sem Exams by curating all the study materials at a single place which includes free online videos, notes, important question bank, etc.

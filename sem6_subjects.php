@@ -31,13 +31,13 @@
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="index.html"><h3>EduElex</h3></a>
+            <a href="index.php"><h3>EduElex</h3></a>
             <u1 class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="subjects.html">Subjects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="index.html">Sign In</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="subjects.php">Subjects</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="index.php">Sign In</a></li>
             </u1>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -47,72 +47,72 @@
 
 
 
-    <section class="sem5subjects_page">
-        <h2 class="sem5_subjectspage_heading">Sem V Subjects</h2>
-        <div class="container sem5subjects__container">
+    <section class="sem6subjects_page">
+        <h2 class="sem6_subjectspage_heading">Sem VI Subjects</h2>
+        <div class="container sem6subjects__container">
 
-            <article class="sem5subjects">
-                <div class="sem5subjects__image">
-                   <img class="sem5subjects_image" src="Images/pcs_image.png">  
+            <article class="sem6subjects">
+                <div class="sem6subjects__image">
+                   <img class="sem6subjects_image" src="Images/bvlsi_image.png">  
                 </div>
-               <div class="sem5subjects__Info">
-                <h4>PCS</h4>
+               <div class="sem6subjects__Info">
+                <h4>BVLSI</h4>
                 <p>
-                    Develop your fundamental understanding of control systems.
+                    Develop your fundamental understanding of Very-large-scale integration (VLSI).
                 </p>
-                <a href="pcs.html" class="btn btn-primary">Start Learning</a>
+                <a href="bvlsi.php" class="btn btn-primary">Start Learning</a>
                </div>
             </article>
 
-            <article class="sem5subjects">
-                <div class="sem5subjects__image">
-                    <img class="sem5subjects_image" src="Images/dsp_image.jpg">    
+            <article class="sem6subjects">
+                <div class="sem6subjects__image">
+                    <img class="sem6subjects_image" src="Images/ee_image.png">    
                 </div>
-                <div class="sem5subjects__Info">
-                    <h4>DSP</h4>
+                <div class="sem6subjects__Info">
+                    <h4>EE</h4>
                 <p>
-                    Unveil advances in digital signal processors and applications.
+                    Unveil advances in Electromagnetics and applications.
                 </p>
-                <a href="dsp.html" class="btn btn-primary">Start Learning</a>
+                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
-            <article class="sem5subjects">
-                <div class="sem5subjects__image">
-                    <img class="sem5subjects_image" src="Images/Lic_image.png">       
+            <article class="sem6subjects">
+                <div class="sem6subjects__image">
+                    <img class="sem6subjects_image" src="Images/ccn_image.png">       
                 </div>
-                <div class="sem5subjects__Info">
-                    <h4>LIC</h4>
+                <div class="sem6subjects__Info">
+                    <h4>CCN</h4>
                 <p>
-                    Learn fundamental principles of standard linear integrated circuits.
+                    Learn fundamental principles of computer communication network.
                 </p>
-                <a href="lic.html" class="btn btn-primary">Start Learning</a>
+                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
-            <article class="sem5subjects">
-                <div class="sem5subjects__image">
-                    <img class="sem5subjects_image" src="Images/dcom_image.jpg">       
+            <article class="sem6subjects">
+                <div class="sem6subjects__image">
+                    <img class="sem6subjects_image" src="Images/esrtos_image.png">       
                 </div>
-                <div class="sem5subjects__Info">
-                    <h4>DCOM</h4>
+                <div class="sem6subjects__Info">
+                    <h4>ESRTOS</h4>
                 <p>
-                    Learn the typical subsystems of a digital communication system.
+                    Learn the typical subsystems of a real time embedded system.
                 </p>
-                <a href="dcom.html" class="btn btn-primary">Start Learning</a>
+                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
-            <article class="sem5subjects">
-                <div class="sem5subjects__image">
-                    <img class="sem5subjects_image" src="Images/nnfl_image.jpg">       
+            <article class="sem6subjects">
+                <div class="sem6subjects__image">
+                    <img class="sem6subjects_image" src="Images/ml_image.png">       
                 </div>
-                <div class="sem5subjects__Info">
-                    <h4>NNFL</h4>
+                <div class="sem6subjects__Info">
+                    <h4>ML</h4>
                 <p>
-                    Learn the fundamentals of artifical network systems and fuzzylogic.
+                    Learn the fundamentals of Machine learning.
                 </p>
-                <a href="nnfl.html" class="btn btn-primary">Start Learning</a>
+                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
@@ -125,7 +125,7 @@
     <footer>
         <div class="container footer__container">
             <div class="footer__1">
-                <a href="index.html" class="footer__logo"><h4>EduElex</h4></a>
+                <a href="index.php" class="footer__logo"><h4>EduElex</h4></a>
                 <p>
                     Learn Electronics Subjects at your Comfort.
                 </p>
@@ -134,10 +134,10 @@
             <div class="footer__2">
                 <h4>Permalinks</h4>
                 <ul class="permalinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="subjects.html">Subjects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="subjects.php">Subjects</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
     

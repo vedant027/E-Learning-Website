@@ -34,7 +34,7 @@
 
 	<div class="form-container sign-up-container">
 		<form action="#">
-            <a href="index.html"><span class="crossmark">&times;</span></a>
+            <a href="index.php"><span class="crossmark">&times;</span></a>
 			<h1>Create Account</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></i></a>
@@ -63,9 +63,9 @@
 			<span>or use your account</span>
 			<input type="email" id="email-signIn" placeholder="Email" />
 			<input type="password" id="password-signIn" placeholder="Password" autocomplete="on" />
-			<a href="#">Forgot your password?</a>
+			<!-- <a href="#">Forgot your password?</a> -->
 			<button class="ghost_pc" onclick="signIn()">Sign In</button>
-			<button class="ghost_pc"><a href="http://localhost/attendance-php/index.php">Faculty Login</a></button>
+			<a href="attendance-php/index.php" class="ghost_pc" id="ghost_pc1">Faculty Login</a>
 			<!-- Mobile SignUp -->
 			<p id="mobile_para">Don't have an account? Sign up here !!</p>
 			<button class="ghost_mobile" id="signUp_mobile">Sign Up</button>
@@ -84,7 +84,7 @@
 			</div>
 			</div>
 			<div class="overlay-panel overlay-right">
-                <a href="index.html"><span class="crossmark">&times;</span></a>
+                <a href="index.php"><span class="crossmark">&times;</span></a>
 				<h1>Welcome Back!</h1>
 				<p>To keep connected with us please login with your personal info<br><br>-------------- or ---------------- </p>
 				<button class="ghost" id="signUp">Sign Up</button>

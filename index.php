@@ -35,13 +35,13 @@
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="index.html"><h3>EduElex</h3></a>
+            <a href="index.php"><h3>EduElex</h3></a>
             <u1 class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="subjects.html">Subjects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Sign In</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="subjects.php">Subjects</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="login.php">Sign In</a></li>
             </u1>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -61,7 +61,7 @@
                  Explore EduElex and develop your fundamentals of electronics subjects and skills in a simplified way
                  and be prepared for your exams.
                 </p>
-                <a href="subjects.html" class="btn btn-primary">Get Started</a>
+                <a href="subjects.php" class="btn btn-primary">Get Started</a>
             </div>
             </div>
         
@@ -86,7 +86,7 @@
                 <p>  •	Everything Curated at a single place.  </p>
                 <br>
 
-        <a href="subjects.html" class="btn btn-primary">Learn Now</a>
+        <a href="subjects.php" class="btn btn-primary">Learn Now</a>
     </div>
 
         <div class="categories__right">
@@ -273,10 +273,10 @@
         <div class="footer__2">
             <h4>Permalinks</h4>
             <ul class="permalinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="subjects.html">Subjects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="subjects.php">Subjects</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
 

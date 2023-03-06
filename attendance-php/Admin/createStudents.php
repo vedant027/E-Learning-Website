@@ -168,7 +168,7 @@ if(isset($_POST['save'])){
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Create Students</h1>
+            <h1 class="h3 mb-0 sub-heading">Create Students</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Create Students</li>
@@ -224,6 +224,7 @@ if(isset($_POST['save'])){
                         </div>
                         <div class="col-xl-6">
                         <label class="form-control-label">Class Arm<span class="text-danger ml-2">*</span></label>
+                        <input type="text" class="form-control" name="otherName" value="<?php echo $row['otherName'];?>" id="exampleInputFirstName" >
                             <?php
                                 echo"<div id='txtHint'></div>";
                             ?>

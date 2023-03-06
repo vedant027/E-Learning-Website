@@ -27,7 +27,7 @@ include '../Includes/session.php';
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="img/logo/attnlg.jpg" rel="icon">
-  <title>Dashboard</title>
+  <title>EduElex - Admin Login</title>
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@ include '../Includes/session.php';
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Administrator Dashboard</h1>
+            <h1 class="h3 mb-0 main-heading">Administrator Dashboard</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
@@ -63,9 +63,9 @@ $students = mysqli_num_rows($query1);
               <div class="card h-100">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
+                    <div class="col mr-2 card-info">
                       <div class="text-xs font-weight-bold text-uppercase mb-1">Students</div>
-                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?php echo $students;?></div>
+                      <div class="h5 mb-0 mr-3 font-weight-bold"><?php echo $students;?></div>
                       <div class="mt-2 mb-0 text-muted text-xs">
                         <!-- <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 20.4%</span>
                         <span>Since last month</span> -->
@@ -87,9 +87,9 @@ $class = mysqli_num_rows($query1);
               <div class="card h-100">
                 <div class="card-body">
                   <div class="row align-items-center">
-                    <div class="col mr-2">
+                    <div class="col mr-2 card-info">
                       <div class="text-xs font-weight-bold text-uppercase mb-1">Classes</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $class;?></div>
+                      <div class="h5 mb-0 font-weight-bold"><?php echo $class;?></div>
                       <div class="mt-2 mb-0 text-muted text-xs">
                         <!-- <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
                         <span>Since last month</span> -->
@@ -111,9 +111,9 @@ $classArms = mysqli_num_rows($query1);
               <div class="card h-100">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
+                    <div class="col mr-2 card-info">
                       <div class="text-xs font-weight-bold text-uppercase mb-1">Class Arms</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $classArms;?></div>
+                      <div class="h5 mb-0 font-weight-bold"><?php echo $classArms;?></div>
                       <div class="mt-2 mb-0 text-muted text-xs">
                         <!-- <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
                         <span>Since last years</span> -->
@@ -136,9 +136,9 @@ $totAttendance = mysqli_num_rows($query1);
               <div class="card h-100">
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
+                    <div class="col mr-2 card-info">
                       <div class="text-xs font-weight-bold text-uppercase mb-1">Total Student Attendance</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $totAttendance;?></div>
+                      <div class="h5 mb-0 font-weight-bold"><?php echo $totAttendance;?></div>
                       <div class="mt-2 mb-0 text-muted text-xs">
                         <!-- <span class="text-danger mr-2"><i class="fas fa-arrow-down"></i> 1.10%</span>
                         <span>Since yesterday</span> -->
@@ -161,9 +161,9 @@ $totAttendance = mysqli_num_rows($query1);
                           <div class="card h-100">
                             <div class="card-body">
                               <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
+                                <div class="col mr-2 card-info">
                                   <div class="text-xs font-weight-bold text-uppercase mb-1">Class Teachers</div>
-                                  <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $classTeacher;?></div>
+                                  <div class="h5 mb-0 font-weight-bold"><?php echo $classTeacher;?></div>
                                   <div class="mt-2 mb-0 text-muted text-xs">
                                     <!-- <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
                                     <span>Since last years</span> -->
@@ -187,9 +187,9 @@ $totAttendance = mysqli_num_rows($query1);
                           <div class="card h-100">
                             <div class="card-body">
                               <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
+                                <div class="col mr-2 card-info">
                                   <div class="text-xs font-weight-bold text-uppercase mb-1">Session & Terms</div>
-                                  <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $sessTerm;?></div>
+                                  <div class="h5 mb-0 font-weight-bold"><?php echo $sessTerm;?></div>
                                   <div class="mt-2 mb-0 text-muted text-xs">
                                     <!-- <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
                                     <span>Since last years</span> -->
@@ -213,9 +213,9 @@ $totAttendance = mysqli_num_rows($query1);
                           <div class="card h-100">
                             <div class="card-body">
                               <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
+                                <div class="col mr-2 card-info">
                                   <div class="text-xs font-weight-bold text-uppercase mb-1">Terms</div>
-                                  <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $termonly;?></div>
+                                  <div class="h5 mb-0 font-weight-bold"><?php echo $termonly;?></div>
                                   <div class="mt-2 mb-0 text-muted text-xs">
                                     <!-- <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
                                     <span>Since last years</span> -->
