@@ -73,7 +73,7 @@
                 <p>
                     Unveil advances in Electromagnetics and applications.
                 </p>
-                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
+                <a href="ee.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
@@ -86,7 +86,7 @@
                 <p>
                     Learn fundamental principles of computer communication network.
                 </p>
-                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
+                <a href="ccn.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
@@ -99,7 +99,7 @@
                 <p>
                     Learn the typical subsystems of a real time embedded system.
                 </p>
-                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
+                <a href="esrtos.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 
@@ -112,7 +112,7 @@
                 <p>
                     Learn the fundamentals of Machine learning.
                 </p>
-                <a href="sem6_subjects.php" class="btn btn-primary">Start Learning</a>
+                <a href="ml.php" class="btn btn-primary">Start Learning</a>
                 </div>
             </article>
 

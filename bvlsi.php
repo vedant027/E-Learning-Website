@@ -35,15 +35,15 @@
     <header>
       <nav>
         <div class="container nav__container">
-          <a href="index.php">
+          <a href="index.html">
             <h3>EduElex</h3>
           </a>
           <u1 class="nav__menu">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="subjects.php">Subjects</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="index.php">Sign In</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="subjects.html">Subjects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Sign In</a></li>
           </u1>
           <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
           <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -68,14 +68,14 @@
       </section>
 
       <section class="video-playlist">
-        <h3 class="title">VLSI Design flow and Technology Trends</h3>
+        <h3 class="title">Very Large Scale of Integration</h3>
         <p>6 Modules</p>
 
 
         <div class="module-list-wrapper">
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">VLSI Design flow and Technology Trends</span>
+              <span class="module-name">VLSI Design Flow & Technology Trends</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">7 Lessons</div>
@@ -87,8 +87,8 @@
                 tabindex="0"
                 class="module-lesson selected-lesson"
                 data-id="zpOioOiKYp4"
-                data-title="VLSI Design flow">
-                <span> VLSI Design flow</span>
+                data-title="VLSI Design Flow ">
+                <span> VLSI Design Flow </span>
               </div>
 
               <div
@@ -119,16 +119,16 @@
                 tabindex="0"
                 class="module-lesson"
                 data-id="JkqPAEaoUaA"
-                data-title="Channel Lenght Modulation">
-                <span> Channel Lenght Modulation</span>
+                data-title="Channel Lenght Modulation Pt 1">
+                <span> Channel Lenght Modulation Pt 1 </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
                 data-id="ToO3NQsY5P8"
-                data-title="Channel Lenght Modulation 2">
-                <span> Channel Lenght Modulation 2</span>
+                data-title="Channel Lenght Modulation Pt 2">
+                <span> Channel Lenght Modulation Pt 2</span>
               </div>
 
               <div
@@ -139,8 +139,6 @@
                 <span> Comparison of BJT and MOS Technologies</span>
               </div>
 
-              
-
 
 
             </div>
@@ -148,7 +146,7 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">MOSFET Inverters</span>
+              <span class="module-name">MOSFET Inverters </span>
               <div class="caret"></div>
             </div>
             <div class="module-description">7 Lessons</div>
@@ -176,16 +174,16 @@
                 tabindex="0"
                 class="module-lesson"
                 data-id="SBVErjUtO0M"
-                data-title="Resistive Load Inverter">
-                <span> Resistive Load Inverter</span>
+                data-title="Resistive Load Inverter ">
+                <span> Resistive Load Inverter </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
                 data-id="q-ZE7E5x5XM"
-                data-title="Depletion Load nMOS Inverters">
-                <span> Depletion Load nMOS Inverters</span>
+                data-title="Depletion Load nMOS Inverters ">
+                <span> Depletion Load nMOS Inverters </span>
               </div>
 
               <div
@@ -229,7 +227,7 @@
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="/UCwYrYJKTY8"
+                data-id="UCwYrYJKTY8"
                 data-title="Static CMOS Style">
                 <span> Static CMOS</span>
               </div>
@@ -272,61 +270,69 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Combinational & Sequential Circuit Realization</span>
+              <span class="module-name">Combinational & Sequential Circuit</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">6 Lessons</div>
+            <div class="module-description">7 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="-S2XckLOiO8"
-                data-title="Introduction to Compensator">
-                <span> Introduction to Compensator</span>
+                data-id="ZirjvvVvnsg"
+                data-title="2 input NAND gate Inverter">
+                <span> 2 input NAND gate Inverter Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="QYNJC9EhxIc"
-                data-title="Lead Compensator">
-                <span> Lead Compensator</span>
+                data-id="FB8UymRnCAU"
+                data-title="2 input NAND gate Inverter">
+                <span> 2 input NAND gate Inverter Pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="saAxBnK06Lg"
-                data-title="Effects of Lead Compensator">
-                <span> Effects of Lead Compensator</span>
+                data-id="m-YCfORTQyE"
+                data-title="2 input NOR Gate Inverter">
+                <span> 2 input NOR Gate Inverter</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="4QBEC2ku6ws"
-                data-title="Lag Compensator">
-                <span> Lag Compensator</span>
+                data-id="REt3wpgbKd8"
+                data-title="Pass Transistor and transmission gates pt 1">
+                <span> Pass Transistor and transmission gates pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="l0Gph3F3Ikc"
-                data-title="Effects of Lag Compensator">
-                <span> Effects of Lag Compensator</span>
+                data-id="O0Uv4fxUdFs"
+                data-title="Pass Transistor and transmission gates pt 2">
+                <span> Pass Transistor and transmission gates pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="d-iPshIZS_I"
-                data-title="Lag Lead Compensator">
-                <span> Lag Lead Compensator</span>
-              </div> -->
+                data-id="YRUUSjpiE0w"
+                data-title="SR Latch, CMOS Logic ">
+                <span> SR Latch using CMOS Logic </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="jOUMYXg0iGg"
+                data-title="CMOS latch up ">
+                <span> CMOS latch up </span>
+              </div>
 
             </div>
           </div>
@@ -336,68 +342,52 @@
               <span class="module-name">Semiconductor Memories</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">5 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="BgaTRpitlGY"
-                data-title="Introduction to State Space Analysis">
-                <span> Introduction to State Space Analysis</span>
+                data-id="Jq4djMyqqnQ"
+                data-title="6T SRAM Operation">
+                <span> 6T SRAM Operation Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="DSvBXXnZv34"
-                data-title="State Model">
-                <span> State Model</span>
+                data-id="zjE0hRQ6iVw"
+                data-title="6T SRAM Operation Pt 2">
+                <span> 6T SRAM Operation Pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vr2kQpRb-QI"
-                data-title="State Transition Matrix">
-                <span> State Transition Matrix</span>
+                data-id="EnEUs4iPL_8"
+                data-title="1T DRAM">
+                <span> 1T DRAM</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MNu7njsgNvc"
-                data-title="Problem 1 on State Transition Matrix">
-                <span> Problem 1 on State Transition Matrix</span>
+                data-id="XTH6d63lv74"
+                data-title="NAND and NOR based ROM array">
+                <span> NAND and NOR based ROM array</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="7oU9jVBXOWk"
-                data-title="Problem 2 on State Transition Matrix">
-                <span> Problem 2 on State Transition Matrix</span>
+                data-id="p0oEsjd5LyA"
+                data-title="Non-volatile Memories ">
+                <span> Non-volatile Memories </span>
               </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="vY2Byo2SJ48"
-                data-title="Derivation of Transfer Function from State Model">
-                <span> Derivation of Transfer Function from State Model</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="S4_rIjCC70w"
-                data-title="Controllability and Observability">
-                <span> Controllability and Observability</span>
-              </div> -->
-
-
+              
 
             </div>
           </div>
@@ -407,72 +397,58 @@
               <span class="module-name">Data Path Design</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">5 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="uL2_yBZZ6Qg"
-                data-title="Derivative Controller">
-                <span> Derivative Controller</span>
+                data-id="6Z1WikEWxH0"
+                data-title="Adder: CLA Adder Pt 1">
+                <span> Adder: CLA Adder Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MwTFwK1OeCc"
-                data-title="Integral Controller">
-                <span> Integral Controller</span>
+                data-id="9lyqSVKbyz8"
+                data-title="Adder: CLA Adder Pt 2">
+                <span> Adder: CLA Adder Pt 2</span>
               </div>
               
               
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MaFxKVOnStg"
-                data-title="Proportional Derivative (PD) Controller">
-                <span> Proportional Derivative (PD) Controller</span>
+                data-id="X2U5pRPNJQA"
+                data-title="Multipliers and Shifter">
+                <span> Multipliers and Shifter</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="lVQxEwxVqgk"
-                data-title="Proportional Integral (PI) Controller">
-                <span> Proportional Integral (PI) Controller</span>
+                data-id="aNza5NJ-ex8"
+                data-title="Array Multiplier">
+                <span> Array Multiplier</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="R8ldRXmqhMo"
-                data-title="Proportional Integral Derivative (PID) Controller">
-                <span> Proportional Integral Derivative (PID) Controller</span>
+                data-id="yJlvUGyBnFY"
+                data-title="Barrel Shifter">
+                <span> Barrel Shifter</span>
               </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="eyqLLrYznxo"
-                data-title="Pole Placement Method">
-                <span> Pole Placement Method</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="XOl9tbTgqFI"
-                data-title="Ackermann's Method">
-                <span> Ackermann's Method</span>
-              </div> -->
+              
 
             </div>
           </div>
 
-          <div class="module-container">
+          <!-- <div class="module-container">
             <div class="module" tabindex="0">
               <span class="module-name">Important Notes</span>
               <div class="caret"></div>
@@ -510,9 +486,9 @@
               
               
             </div>
-          </div>
+          </div> -->
 
-          <div class="module-container">
+          <!-- <div class="module-container">
             <div class="module" tabindex="0">
               <span class="module-name">Important Topics</span>
               <div class="caret"></div>
@@ -538,7 +514,7 @@
               
               
             </div>
-          </div>
+          </div> -->
 
           
 
@@ -553,7 +529,7 @@
       <footer>
         <div class="container footer__container">
           <div class="footer__1">
-            <a href="index.php" class="footer__logo">
+            <a href="index.html" class="footer__logo">
               <h4>EduElex</h4>
             </a>
             <p>Learn Electronics Subjects at your Comfort.</p>
@@ -562,10 +538,10 @@
           <div class="footer__2">
             <h4>Permalinks</h4>
             <ul class="permalinks">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="subjects.php">Subjects</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="subjects.html">Subjects</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
 

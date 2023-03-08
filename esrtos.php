@@ -55,30 +55,30 @@
 
     <main class="content">
       <section class="main-video">
-        <h3 class="video-title">Introduction to VLSI Design flow</h3>
+        <h3 class="video-title">Introduction to ESRTOS</h3>
         <br />
         <iframe
           width="900"
           height="500"
-          src="https://www.youtube.com/embed/zpOioOiKYp4?rel=0"
-          title="VLSI Design flow and Technology Trends"
+          src="https://www.youtube.com/embed/PDYuYGHT668?rel=0"
+          title="Introduction to ESRTOS"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </section>
 
       <section class="video-playlist">
-        <h3 class="title">VLSI Design flow and Technology Trends</h3>
+        <h3 class="title">Embedded Sysytems and Real time operating Systems </h3>
         <p>6 Modules</p>
 
 
         <div class="module-list-wrapper">
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">VLSI Design flow and Technology Trends</span>
+              <span class="module-name">Introduction to Embedded Systems</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">3 Lessons</div>
             
 
             <div class="module-items items-hidden">
@@ -86,61 +86,26 @@
               <div
                 tabindex="0"
                 class="module-lesson selected-lesson"
-                data-id="zpOioOiKYp4"
-                data-title="VLSI Design flow">
-                <span> VLSI Design flow</span>
+                data-id="PDYuYGHT668"
+                data-title="Applications and Introduction">
+                <span> Applications and Introduction</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="Or8hHjuJzkg"
-                data-title="MOSFET Scaling">
-                <span> MOSFET Scaling</span>
+                data-id="Hxrd625ayKw"
+                data-title="Characteristics of Embedded Systems">
+                <span> Characteristics of Embedded Systems</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="6gjkaVzCqBw"
-                data-title="Constant Field Scaling">
-                <span> Constant Field Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="hSrXy-xrwsM"
-                data-title="Constant Voltage Scaling">
-                <span> Constant Voltage Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="JkqPAEaoUaA"
-                data-title="Channel Lenght Modulation">
-                <span> Channel Lenght Modulation</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="ToO3NQsY5P8"
-                data-title="Channel Lenght Modulation 2">
-                <span> Channel Lenght Modulation 2</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="HvgdMTvwUlE"
-                data-title="Comparison of BJT and MOS Technologies">
-                <span> Comparison of BJT and MOS Technologies</span>
-              </div>
-
-              
-
+                data-id="zExqm0RrRrU"
+                data-title="Processors of Embedded Systems">
+                <span> Processors of Embedded Systems</span>
+              </div> 
 
 
             </div>
@@ -148,77 +113,7 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">MOSFET Inverters</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">7 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="Zptbv1kOvoQ"
-                data-title="nMOS Inverter">
-                <span> nMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="BWo7PlCZAPc"
-                data-title="Noise Margin">
-                <span> Noise Margin</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="SBVErjUtO0M"
-                data-title="Resistive Load Inverter">
-                <span> Resistive Load Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="q-ZE7E5x5XM"
-                data-title="Depletion Load nMOS Inverters">
-                <span> Depletion Load nMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="kvR_UabB108"
-                data-title="CMOS Inverter">
-                <span> CMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="wcz1vHHI_dw"
-                data-title="VTC of CMOS Inverter">
-                <span> VTC of CMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="_3FnDgNuC-8"
-                data-title="CMOS Inverter Parameters">
-                <span> CMOS Inverter Parameters</span>
-              </div>
-
-              
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">MOS Circuit Design Styles</span>
+              <span class="module-name">Embedded Hardware Systems</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">5 Lessons</div>
@@ -229,41 +124,88 @@
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="/UCwYrYJKTY8"
-                data-title="Static CMOS Style">
-                <span> Static CMOS</span>
+                data-id="_nI6Kj4kB_E"
+                data-title="ASIC ASSP SOC memories ">
+                <span> ASIC ASSP SOC memories</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="5jZ3Kr7DAaA"
-                data-title="Pseudo nMOS and Dynamic Style">
-                <span> Pseudo nMOS and Dynamic Style</span>
+                data-id="iChObc7mbrA"
+                data-title="Introduction of ARM Cortex M3 ">
+                <span>Introduction of ARM Cortex M3 </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="ZPZOqF8iacA"
-                data-title="C2MOS Style">
-                <span> C2MOS Style</span>
+                data-id="2QaCG7VyD68"
+                data-title="Architecture & Low Power Of Cortex M3">
+                <span> Architecture & Low Power Of Cortex M3</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="REt3wpgbKd8"
-                data-title="Pass Trasistor and Transmission Gate">
-                <span> Pass Trasistor and Transmission Gate</span>
+                data-id="tccEP_hTW6Y"
+                data-title="Communication Interfaces ">
+                <span> Communication Interfaces </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="O0Uv4fxUdFs"
-                data-title="Pass Trasistor and Transmission Gate 2">
-                <span> Pass Trasistor and Transmission Gate 2</span>
+                data-id="NucRo8o8rxY"
+                data-title="Sensors and Actuators">
+                <span> Sensors and Actuatorss</span>
+              </div>
+
+
+              
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Embedded Software</span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">4 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="UG0Aq6r4BBg"
+                data-title="Program Model Concepts">
+                <span> Program Model Concepts</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="v7r1Yn3sr-g"
+                data-title="Introduction To Real Time Operating System Pt 1">
+                <span> Introduction To Real Time Operating System Pt 1</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="NfzFbQU5kyI"
+                data-title="Introduction To Real Time Operating System Pt 2">
+                <span> Introduction To Real Time Operating System Pt 2</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="sRg35FnlFwg"
+                data-title="RTOS in Embedded Systems ">
+                <span> RTOS in Embedded Systems </span>
               </div>
 
 
@@ -272,28 +214,28 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Combinational & Sequential Circuit Realization</span>
+              <span class="module-name">Introduction to FreeRTOS</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">6 Lessons</div>
+            <div class="module-description">1 Lesson</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="-S2XckLOiO8"
-                data-title="Introduction to Compensator">
-                <span> Introduction to Compensator</span>
+                data-id="muOL9SH0p9g"
+                data-title="Free RTOS">
+                <span> Free RTOS</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="QYNJC9EhxIc"
-                data-title="Lead Compensator">
-                <span> Lead Compensator</span>
+                data-id="muOL9SH0p9g"
+                data-title="Introduction to Free RTOS">
+                <span> Introduction to Free RTOS</span>
               </div>
 
               <div
@@ -326,77 +268,68 @@
                 data-id="d-iPshIZS_I"
                 data-title="Lag Lead Compensator">
                 <span> Lag Lead Compensator</span>
-              </div> -->
+              </div>
 
             </div>
           </div>
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Semiconductor Memories</span>
+              <span class="module-name">Testing and Debugging Methodology</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">6 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="BgaTRpitlGY"
-                data-title="Introduction to State Space Analysis">
-                <span> Introduction to State Space Analysis</span>
+                data-id="5iGzpq6vm8E"
+                data-title="Testing and Debugging">
+                <span> Testing and Debugging</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="DSvBXXnZv34"
-                data-title="State Model">
-                <span> State Model</span>
+                data-id="uduVe5U16RQ"
+                data-title="Hardware Emulator">
+                <span> Hardware Emulator</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vr2kQpRb-QI"
-                data-title="State Transition Matrix">
-                <span> State Transition Matrix</span>
+                data-id="kiQpGO_MgsY"
+                data-title="Embedded Software Testing">
+                <span> Embedded Software Testing</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MNu7njsgNvc"
-                data-title="Problem 1 on State Transition Matrix">
-                <span> Problem 1 on State Transition Matrix</span>
+                data-id="h_BnCYpXlSE"
+                data-title="Black box test">
+                <span> Black box test</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="7oU9jVBXOWk"
-                data-title="Problem 2 on State Transition Matrix">
-                <span> Problem 2 on State Transition Matrix</span>
+                data-id="8xAbFAGI2gM"
+                data-title="White Box Test">
+                <span> White Box Test</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vY2Byo2SJ48"
-                data-title="Derivation of Transfer Function from State Model">
-                <span> Derivation of Transfer Function from State Model</span>
+                data-id="5iGzpq6vm8E"
+                data-title="Testing vs Debugging">
+                <span> Testing vs Debugging</span>
               </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="S4_rIjCC70w"
-                data-title="Controllability and Observability">
-                <span> Controllability and Observability</span>
-              </div> -->
-
 
 
             </div>
@@ -404,75 +337,54 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Data Path Design</span>
+              <span class="module-name">System Integration </span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">4 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="uL2_yBZZ6Qg"
-                data-title="Derivative Controller">
-                <span> Derivative Controller</span>
+                data-id="ikHv78VfZVU"
+                data-title="Embedded Product Design Life-Cycle">
+                <span> Embedded Product Design Life-Cycle</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MwTFwK1OeCc"
-                data-title="Integral Controller">
-                <span> Integral Controller</span>
+                data-id="w-KHW7ZxMW8"
+                data-title="Hardware-Software Co-design">
+                <span> Hardware-Software Co-design</span>
               </div>
               
               
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MaFxKVOnStg"
-                data-title="Proportional Derivative (PD) Controller">
-                <span> Proportional Derivative (PD) Controller</span>
+                data-id="Wh2eDQLNU0I"
+                data-title="Case Study of Washing Machine ">
+                <span> Case Study of Washing Machine </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="lVQxEwxVqgk"
-                data-title="Proportional Integral (PI) Controller">
-                <span> Proportional Integral (PI) Controller</span>
+                data-id="MSzfGp2w52E"
+                data-title="Case Study of Automatic chocolate vending machine">
+                <span> Case Study of Automatic chocolate vending machine</span>
               </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="R8ldRXmqhMo"
-                data-title="Proportional Integral Derivative (PID) Controller">
-                <span> Proportional Integral Derivative (PID) Controller</span>
-              </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="eyqLLrYznxo"
-                data-title="Pole Placement Method">
-                <span> Pole Placement Method</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="XOl9tbTgqFI"
-                data-title="Ackermann's Method">
-                <span> Ackermann's Method</span>
-              </div> -->
+      
 
             </div>
           </div>
 
-          <div class="module-container">
+          <!-- <div class="module-container">
             <div class="module" tabindex="0">
               <span class="module-name">Important Notes</span>
               <div class="caret"></div>
@@ -534,7 +446,7 @@
                 class="notes">
                 <a href="Notes/PCS IA 2 Question Bank.pdf" target="_blank" rel="noopener noreferrer">IA 2 Question Bank</a>
               </div>
-              
+               -->
               
               
             </div>

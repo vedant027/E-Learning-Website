@@ -55,30 +55,30 @@
 
     <main class="content">
       <section class="main-video">
-        <h3 class="video-title">Introduction to VLSI Design flow</h3>
+        <h3 class="video-title">Introduction to Electromagnetic Engineering</h3>
         <br />
         <iframe
           width="900"
           height="500"
-          src="https://www.youtube.com/embed/zpOioOiKYp4?rel=0"
-          title="VLSI Design flow and Technology Trends"
+          src="https://www.youtube.com/embed/TYOYID9gJxM?rel=0"
+          title="Introduction to Electromagnetic Engineering"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </section>
 
       <section class="video-playlist">
-        <h3 class="title">VLSI Design flow and Technology Trends</h3>
+        <h3 class="title">Electromagnetic Engineering</h3>
         <p>6 Modules</p>
 
 
         <div class="module-list-wrapper">
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">VLSI Design flow and Technology Trends</span>
+              <span class="module-name">Basic Laws of Electromagnetic</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">9 Lessons</div>
             
 
             <div class="module-items items-hidden">
@@ -86,57 +86,73 @@
               <div
                 tabindex="0"
                 class="module-lesson selected-lesson"
-                data-id="zpOioOiKYp4"
-                data-title="VLSI Design flow">
-                <span> VLSI Design flow</span>
+                data-id="TYOYID9gJxM"
+                data-title="Qualitative interpretation of gradient divergence and curl">
+                <span> Qualitative interpretation of gradient divergence and curl</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="Or8hHjuJzkg"
-                data-title="MOSFET Scaling">
-                <span> MOSFET Scaling</span>
+                data-id="ArYxoenPm4U"
+                data-title="Coulombs Law and Electric Field Intensity">
+                <span> Coulombs Law and Electric Field Intensity</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="6gjkaVzCqBw"
-                data-title="Constant Field Scaling">
-                <span> Constant Field Scaling</span>
+                data-id="lBmL5OrilWQ"
+                data-title="Electric Flux Density, Gauss Law and Divergence">
+                <span> Electric Flux Density, Gauss Law and Divergence</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="hSrXy-xrwsM"
-                data-title="Constant Voltage Scaling">
-                <span> Constant Voltage Scaling</span>
+                data-id="xwaPxhmocdQ"
+                data-title="Relation between electric field & potential">
+                <span> Relation between electric field & potential</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="JkqPAEaoUaA"
-                data-title="Channel Lenght Modulation">
-                <span> Channel Lenght Modulation</span>
+                data-id="CQDoNaKHytA"
+                data-title="Current and Current Density">
+                <span> Current and Current Density</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="ToO3NQsY5P8"
-                data-title="Channel Lenght Modulation 2">
-                <span> Channel Lenght Modulation 2</span>
+                data-id="meWRs2khg2k"
+                data-title="Poisson Equation and Laplace Equation">
+                <span> Poisson Equation and Laplace Equation</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="HvgdMTvwUlE"
-                data-title="Comparison of BJT and MOS Technologies">
-                <span> Comparison of BJT and MOS Technologies</span>
+                data-id="I8X1EpH_VQY"
+                data-title="Biot Savart law ">
+                <span> Biot Savart law </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="yr0RkoUHgf0"
+                data-title="Ampere's circuital law ">
+                <span> Ampere's circuital law </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="rLbUbO59Qsk"
+                data-title="Boundary Conditions ">
+                <span> Boundary Conditions </span>
               </div>
 
               
@@ -148,131 +164,7 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">MOSFET Inverters</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">7 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="Zptbv1kOvoQ"
-                data-title="nMOS Inverter">
-                <span> nMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="BWo7PlCZAPc"
-                data-title="Noise Margin">
-                <span> Noise Margin</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="SBVErjUtO0M"
-                data-title="Resistive Load Inverter">
-                <span> Resistive Load Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="q-ZE7E5x5XM"
-                data-title="Depletion Load nMOS Inverters">
-                <span> Depletion Load nMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="kvR_UabB108"
-                data-title="CMOS Inverter">
-                <span> CMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="wcz1vHHI_dw"
-                data-title="VTC of CMOS Inverter">
-                <span> VTC of CMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="_3FnDgNuC-8"
-                data-title="CMOS Inverter Parameters">
-                <span> CMOS Inverter Parameters</span>
-              </div>
-
-              
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">MOS Circuit Design Styles</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">5 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="/UCwYrYJKTY8"
-                data-title="Static CMOS Style">
-                <span> Static CMOS</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="5jZ3Kr7DAaA"
-                data-title="Pseudo nMOS and Dynamic Style">
-                <span> Pseudo nMOS and Dynamic Style</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="ZPZOqF8iacA"
-                data-title="C2MOS Style">
-                <span> C2MOS Style</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="REt3wpgbKd8"
-                data-title="Pass Trasistor and Transmission Gate">
-                <span> Pass Trasistor and Transmission Gate</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="O0Uv4fxUdFs"
-                data-title="Pass Trasistor and Transmission Gate 2">
-                <span> Pass Trasistor and Transmission Gate 2</span>
-              </div>
-
-
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">Combinational & Sequential Circuit Realization</span>
+              <span class="module-name">Maxwell's Equations</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">6 Lessons</div>
@@ -280,60 +172,62 @@
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="-S2XckLOiO8"
-                data-title="Introduction to Compensator">
-                <span> Introduction to Compensator</span>
+                data-id="6vYu2UVGJew"
+                data-title="Faraday's law">
+                <span> Faraday's law</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="QYNJC9EhxIc"
-                data-title="Lead Compensator">
-                <span> Lead Compensator</span>
+                data-id="PHBiRs3f30w"
+                data-title="Concept of transformer and motional electromotive force">
+                <span> Concept of transformer and motional electromotive force</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="saAxBnK06Lg"
-                data-title="Effects of Lead Compensator">
-                <span> Effects of Lead Compensator</span>
+                data-id="t-W6_fn_1bI"
+                data-title="Displacement current & Ampere Maxwell's law">
+                <span> Displacement current & Ampere Maxwell's law</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="4QBEC2ku6ws"
-                data-title="Lag Compensator">
-                <span> Lag Compensator</span>
+                data-id="IMSyzgqJZkU"
+                data-title="concept of time varying potential">
+                <span> Concept of time varying potential</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="l0Gph3F3Ikc"
-                data-title="Effects of Lag Compensator">
-                <span> Effects of Lag Compensator</span>
+                data-id="MVBm-Tz38-M"
+                data-title="lorentz gauge condition">
+                <span> Lorentz gauge conditions</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="d-iPshIZS_I"
-                data-title="Lag Lead Compensator">
-                <span> Lag Lead Compensator</span>
-              </div> -->
+                data-id="VgK5epofJSs"
+                data-title="Concept of phasors and time harmonic">
+                <span> Concept of phasors and time harmonic</span>
+              </div>
 
+            
+              
             </div>
           </div>
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Semiconductor Memories</span>
+              <span class="module-name">Electromagnetic Waves</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">7 Lessons</div>
@@ -341,61 +235,177 @@
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="BgaTRpitlGY"
-                data-title="Introduction to State Space Analysis">
-                <span> Introduction to State Space Analysis</span>
+                data-id="fK6lu1ZIhOg"
+                data-title="Derivation of electromagnetic wave equation">
+                <span> Derivation of electromagnetic wave equation</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="DSvBXXnZv34"
-                data-title="State Model">
-                <span> State Model</span>
+                data-id="ZzOqnYYDpQ0"
+                data-title="General representation of em waves">
+                <span> General representation of em waves</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vr2kQpRb-QI"
-                data-title="State Transition Matrix">
-                <span> State Transition Matrix</span>
+                data-id="nEVlWCEIDIA"
+                data-title="Wave Propogation in Free Space">
+                <span> Wave Propogation in Free Space</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MNu7njsgNvc"
-                data-title="Problem 1 on State Transition Matrix">
-                <span> Problem 1 on State Transition Matrix</span>
+                data-id="e9hG_zjKkvI"
+                data-title="Lossy and Loseless Dielectrics">
+                <span> Lossy and Loseless Dielectrics</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="7oU9jVBXOWk"
-                data-title="Problem 2 on State Transition Matrix">
-                <span> Problem 2 on State Transition Matrix</span>
+                data-id="eVwRtkxl-O4"
+                data-title="Skin effect ">
+                <span> Skin effect </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vY2Byo2SJ48"
-                data-title="Derivation of Transfer Function from State Model">
-                <span> Derivation of Transfer Function from State Model</span>
+                data-id="yWdNfk095xU"
+                data-title="Wave polarization  ">
+                <span> Wave polarization  </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="S4_rIjCC70w"
-                data-title="Controllability and Observability">
-                <span> Controllability and Observability</span>
-              </div> -->
+                data-id="d7eZIiLR43E"
+                data-title="Poynting Theorem ">
+                <span> Poynting Theorem </span>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Transmission Lines</span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">3 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="7fZfXn2_Kb0"
+                data-title="Transmission Line Parameters ">
+                <span> Transmission Line Parameters </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="FeDm4iFXcX0"
+                data-title="Smith Chart  for VSWR, Reflection Coefficient and Input Impedance ">
+                <span> Smith Chart  for VSWR, Reflection Coefficient and Input Impedance </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="awkbqYeuuSI"
+                data-title="Application of Microstrip Lines">
+                <span> Application of Microstrip Lines</span>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Introduction to Antennas</span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">8 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="TcfiObIYVyQ"
+                data-title="Introduction to Antenna and its Radiation Mechanism">
+                <span> Introduction to Antenna and its Radiation Mechanism</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="twNVEyjbKRY"
+                data-title="Antenna Radiating Patterns">
+                <span> Antenna Radiating Patterns</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="JEYY4pBdC84"
+                data-title="Basics of Radiation pattern (HPBW, FNBW)">
+                <span> Basics of Radiation pattern (HPBW, FNBW)</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="e2bqGmVgk0I"
+                data-title="FRIIS Transmission ">
+                <span> FRIIS Transmission </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="yC3KY7bxKgk"
+                data-title="Antenna Field Zones, Parameters and Wave Propagation">
+                <span>  Antenna Field Zones, Parameters and Wave Propagation</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="GiwqMQikybQ"
+                data-title="Two Isotropic Source Array">
+                <span> Two Isotropic Source Array</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="ISKvYdAffhU"
+                data-title="Horn Antenna">
+                <span> Horn Antenna</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="k0kZpgemz88"
+                data-title="Reflector Antenna">
+                <span> Reflector Antenna</span>
+              </div>
 
 
 
@@ -404,75 +414,55 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Data Path Design</span>
+              <span class="module-name">Introduction to EMI/EMC </span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">4 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="uL2_yBZZ6Qg"
-                data-title="Derivative Controller">
-                <span> Derivative Controller</span>
+                data-id="k0kZpgemz88"
+                data-title="EMC and EMI">
+                <span> EMC and EMI</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MwTFwK1OeCc"
-                data-title="Integral Controller">
-                <span> Integral Controller</span>
+                data-id="nLFiYkgcBpM"
+                data-title="EMI, EMC Introduction pt 1 ">
+                <span> EMI, EMC Introduction pt 1 </span>
               </div>
               
               
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MaFxKVOnStg"
-                data-title="Proportional Derivative (PD) Controller">
-                <span> Proportional Derivative (PD) Controller</span>
+                data-id="VdUf9bbPo-A"
+                data-title="EMI, EMC Introduction pt 2 ">
+                <span> EMI, EMC Introduction pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="lVQxEwxVqgk"
-                data-title="Proportional Integral (PI) Controller">
-                <span> Proportional Integral (PI) Controller</span>
+                data-id="cWo_sVDTszY"
+                data-title="Classes,Methods and Generation of EMI and EMC">
+                <span> Classes,Methods and Generation of EMI and EMC</span>
               </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="R8ldRXmqhMo"
-                data-title="Proportional Integral Derivative (PID) Controller">
-                <span> Proportional Integral Derivative (PID) Controller</span>
-              </div>
+              
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="eyqLLrYznxo"
-                data-title="Pole Placement Method">
-                <span> Pole Placement Method</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="XOl9tbTgqFI"
-                data-title="Ackermann's Method">
-                <span> Ackermann's Method</span>
-              </div> -->
+        
 
             </div>
           </div>
 
-          <div class="module-container">
+          <!-- <div class="module-container">
             <div class="module" tabindex="0">
               <span class="module-name">Important Notes</span>
               <div class="caret"></div>
@@ -538,7 +528,7 @@
               
               
             </div>
-          </div>
+          </div> -->
 
           
 

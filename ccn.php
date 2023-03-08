@@ -55,170 +55,27 @@
 
     <main class="content">
       <section class="main-video">
-        <h3 class="video-title">Introduction to VLSI Design flow</h3>
+        <h3 class="video-title">Introduction to Computer Networks</h3>
         <br />
         <iframe
           width="900"
           height="500"
-          src="https://www.youtube.com/embed/zpOioOiKYp4?rel=0"
-          title="VLSI Design flow and Technology Trends"
+          src="https://www.youtube.com/embed/VwN91x5i25g?rel=0"
+          title="Introduction to Computer Networks"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </section>
 
       <section class="video-playlist">
-        <h3 class="title">VLSI Design flow and Technology Trends</h3>
+        <h3 class="title">Computer Communication Networks</h3>
         <p>6 Modules</p>
 
 
         <div class="module-list-wrapper">
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">VLSI Design flow and Technology Trends</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">7 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson selected-lesson"
-                data-id="zpOioOiKYp4"
-                data-title="VLSI Design flow">
-                <span> VLSI Design flow</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="Or8hHjuJzkg"
-                data-title="MOSFET Scaling">
-                <span> MOSFET Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="6gjkaVzCqBw"
-                data-title="Constant Field Scaling">
-                <span> Constant Field Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="hSrXy-xrwsM"
-                data-title="Constant Voltage Scaling">
-                <span> Constant Voltage Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="JkqPAEaoUaA"
-                data-title="Channel Lenght Modulation">
-                <span> Channel Lenght Modulation</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="ToO3NQsY5P8"
-                data-title="Channel Lenght Modulation 2">
-                <span> Channel Lenght Modulation 2</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="HvgdMTvwUlE"
-                data-title="Comparison of BJT and MOS Technologies">
-                <span> Comparison of BJT and MOS Technologies</span>
-              </div>
-
-              
-
-
-
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">MOSFET Inverters</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">7 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="Zptbv1kOvoQ"
-                data-title="nMOS Inverter">
-                <span> nMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="BWo7PlCZAPc"
-                data-title="Noise Margin">
-                <span> Noise Margin</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="SBVErjUtO0M"
-                data-title="Resistive Load Inverter">
-                <span> Resistive Load Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="q-ZE7E5x5XM"
-                data-title="Depletion Load nMOS Inverters">
-                <span> Depletion Load nMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="kvR_UabB108"
-                data-title="CMOS Inverter">
-                <span> CMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="wcz1vHHI_dw"
-                data-title="VTC of CMOS Inverter">
-                <span> VTC of CMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="_3FnDgNuC-8"
-                data-title="CMOS Inverter Parameters">
-                <span> CMOS Inverter Parameters</span>
-              </div>
-
-              
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">MOS Circuit Design Styles</span>
+              <span class="module-name">Introduction to Network Architecture  </span>
               <div class="caret"></div>
             </div>
             <div class="module-description">5 Lessons</div>
@@ -228,43 +85,45 @@
 
               <div
                 tabindex="0"
-                class="module-lesson"
-                data-id="/UCwYrYJKTY8"
-                data-title="Static CMOS Style">
-                <span> Static CMOS</span>
+                class="module-lesson selected-lesson"
+                data-id="VwN91x5i25g"
+                data-title="Computer Networks">
+                <span> Computer Networks</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="5jZ3Kr7DAaA"
-                data-title="Pseudo nMOS and Dynamic Style">
-                <span> Pseudo nMOS and Dynamic Style</span>
+                data-id="yDTC6sbYFFE"
+                data-title="Addresing in Networking">
+                <span> Addresing in Networking</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="ZPZOqF8iacA"
-                data-title="C2MOS Style">
-                <span> C2MOS Style</span>
+                data-id="ly8ikWtAY7sly8ikWtAY7s"
+                data-title="Protocols and Communication Pt 1">
+                <span> Protocols and Communication Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="REt3wpgbKd8"
-                data-title="Pass Trasistor and Transmission Gate">
-                <span> Pass Trasistor and Transmission Gate</span>
+                data-id="iE_kY2LVBKA"
+                data-title="Protocols and Communication Pt 2">
+                <span> Protocols and Communication Pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="O0Uv4fxUdFs"
-                data-title="Pass Trasistor and Transmission Gate 2">
-                <span> Pass Trasistor and Transmission Gate 2</span>
+                data-id="wvPe4Zb0tUA"
+                data-title="TCP / IP Model">
+                <span> TCP / IP Model</span>
               </div>
+
+              
 
 
             </div>
@@ -272,68 +131,7 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Combinational & Sequential Circuit Realization</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">6 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <!-- <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="-S2XckLOiO8"
-                data-title="Introduction to Compensator">
-                <span> Introduction to Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="QYNJC9EhxIc"
-                data-title="Lead Compensator">
-                <span> Lead Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="saAxBnK06Lg"
-                data-title="Effects of Lead Compensator">
-                <span> Effects of Lead Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="4QBEC2ku6ws"
-                data-title="Lag Compensator">
-                <span> Lag Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="l0Gph3F3Ikc"
-                data-title="Effects of Lag Compensator">
-                <span> Effects of Lag Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="d-iPshIZS_I"
-                data-title="Lag Lead Compensator">
-                <span> Lag Lead Compensator</span>
-              </div> -->
-
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">Semiconductor Memories</span>
+              <span class="module-name">Physical Layer</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">7 Lessons</div>
@@ -341,61 +139,216 @@
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="BgaTRpitlGY"
-                data-title="Introduction to State Space Analysis">
-                <span> Introduction to State Space Analysis</span>
+                data-id="xHyJNkiGRd8"
+                data-title="Transmission Media Pt 1">
+                <span> Transmission Media Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="DSvBXXnZv34"
-                data-title="State Model">
-                <span> State Model</span>
+                data-id="cLlwVlNroCY"
+                data-title="Transmission Media Pt 2">
+                <span> Transmission Media Pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vr2kQpRb-QI"
-                data-title="State Transition Matrix">
-                <span> State Transition Matrix</span>
+                data-id="0pMm_QxCg3I"
+                data-title="Interconnecting Devices">
+                <span> Interconnecting Devices</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MNu7njsgNvc"
-                data-title="Problem 1 on State Transition Matrix">
-                <span> Problem 1 on State Transition Matrix</span>
+                data-id="yHPpohgUz4M"
+                data-title="Introduction to LAN">
+                <span> Introduction to LAN</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="7oU9jVBXOWk"
-                data-title="Problem 2 on State Transition Matrix">
-                <span> Problem 2 on State Transition Matrix</span>
+                data-id="ewpq3qxx5Ls"
+                data-title="Traditional Ethernet and IEEE">
+                <span> Traditional Ethernet and IEEEs</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vY2Byo2SJ48"
-                data-title="Derivation of Transfer Function from State Model">
-                <span> Derivation of Transfer Function from State Model</span>
+                data-id="lg-f92uY1Lc"
+                data-title="Physical Layers ">
+                <span> Physical Layers </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="S4_rIjCC70w"
-                data-title="Controllability and Observability">
-                <span> Controllability and Observability</span>
-              </div> -->
+                data-id="8kWLarrCa-s"
+                data-title="Multiplexing ">
+                <span> Multiplexing </span>
+              </div>
+
+              
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Data Link Control </span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">3 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="VBAuzvVzOQU"
+                data-title="Data Link Services">
+                <span> Data Link Services</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="N2tgsPUPEBE"
+                data-title="High level data link Control">
+                <span> High level data link Control</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="G0h0dC4Zycs"
+                data-title="Medium Access Control Protocols">
+                <span> Medium Access Control Protocols</span>
+              </div>
+
+              
+
+
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Network Layer</span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">8 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="-HlJ4psu5aU"
+                data-title="Switching">
+                <span> Switching</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="teqgcpO9iAQ"
+                data-title="Circuit Switching Concepts">
+                <span> Circuit Switching Concepts</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="gjN4GACRt84"
+                data-title="Packet Switching Principles">
+                <span> Packet Switching Principles</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="O38P-GUeH20"
+                data-title="Routing In Packet Switching Networks">
+                <span> Routing In Packet Switching Networks</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="Z_l73myJqWo"
+                data-title="Least-Cost Routing Algorithms">
+                <span> Least-Cost Routing Algorithms</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="ptRHvYaa_yM"
+                data-title="Principles Of Internetworking">
+                <span> Principles Of Internetworking</span>
+              </div> 
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="_2-tKEVE9cE"
+                data-title="Internet Protocol Operation">
+                <span> Internet Protocol Operation</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="zFyl_zaRYuQ"
+                data-title="IP Addresing">
+                <span> IP Addresing</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Transport Layer</span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">3 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="L6omF8vKbuQ"
+                data-title="Connection Oriendted Transport Protocol  ">
+                <span> Connection Oriendted Transport Protocol  </span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="VjBDgcNno-Q"
+                data-title="Connectionless Transport Mechanisms">
+                <span> Connectionless Transport Mechanisms</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="Hf05vARjcjE"
+                data-title="Congestion">
+                <span> Congestion</span>
+              </div>
 
 
 
@@ -404,75 +357,52 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Data Path Design</span>
+              <span class="module-name">Application Layer </span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">4 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="uL2_yBZZ6Qg"
-                data-title="Derivative Controller">
-                <span> Derivative Controller</span>
+                data-id="8An0dRalJeM"
+                data-title="Application Layer of OSI Model ">
+                <span> Application Layer of OSI Model</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MwTFwK1OeCc"
-                data-title="Integral Controller">
-                <span> Integral Controller</span>
+                data-id="pnoWCK82apU"
+                data-title="HTTP, FTP, DNS, SMTP ">
+                <span> HTTP, FTP,POP </span>
               </div>
               
               
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MaFxKVOnStg"
-                data-title="Proportional Derivative (PD) Controller">
-                <span> Proportional Derivative (PD) Controller</span>
+                data-id="6qphWU5FXnM"
+                data-title="DNS SMTP">
+                <span> DNS SMTP</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="lVQxEwxVqgk"
-                data-title="Proportional Integral (PI) Controller">
-                <span> Proportional Integral (PI) Controller</span>
+                data-id="t1jY9IXEXpY"
+                data-title="Streaming multimedia">
+                <span> Streaming multimedia</span>
               </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="R8ldRXmqhMo"
-                data-title="Proportional Integral Derivative (PID) Controller">
-                <span> Proportional Integral Derivative (PID) Controller</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="eyqLLrYznxo"
-                data-title="Pole Placement Method">
-                <span> Pole Placement Method</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="XOl9tbTgqFI"
-                data-title="Ackermann's Method">
-                <span> Ackermann's Method</span>
-              </div> -->
 
             </div>
           </div>
 
-          <div class="module-container">
+          <!-- <div class="module-container">
             <div class="module" tabindex="0">
               <span class="module-name">Important Notes</span>
               <div class="caret"></div>
@@ -534,7 +464,7 @@
                 class="notes">
                 <a href="Notes/PCS IA 2 Question Bank.pdf" target="_blank" rel="noopener noreferrer">IA 2 Question Bank</a>
               </div>
-              
+               -->
               
               
             </div>

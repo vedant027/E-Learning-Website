@@ -55,170 +55,27 @@
 
     <main class="content">
       <section class="main-video">
-        <h3 class="video-title">Introduction to VLSI Design flow</h3>
+        <h3 class="video-title">Introduction to Machine Learning</h3>
         <br />
         <iframe
           width="900"
           height="500"
-          src="https://www.youtube.com/embed/zpOioOiKYp4?rel=0"
-          title="VLSI Design flow and Technology Trends"
+          src="https://www.youtube.com/embed/Y4qO9unerGs?rel=0"
+          title="Introduction to Machine Learning"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </section>
 
       <section class="video-playlist">
-        <h3 class="title">VLSI Design flow and Technology Trends</h3>
+        <h3 class="title">Machine Learning</h3>
         <p>6 Modules</p>
 
 
         <div class="module-list-wrapper">
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">VLSI Design flow and Technology Trends</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">7 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson selected-lesson"
-                data-id="zpOioOiKYp4"
-                data-title="VLSI Design flow">
-                <span> VLSI Design flow</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="Or8hHjuJzkg"
-                data-title="MOSFET Scaling">
-                <span> MOSFET Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="6gjkaVzCqBw"
-                data-title="Constant Field Scaling">
-                <span> Constant Field Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="hSrXy-xrwsM"
-                data-title="Constant Voltage Scaling">
-                <span> Constant Voltage Scaling</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="JkqPAEaoUaA"
-                data-title="Channel Lenght Modulation">
-                <span> Channel Lenght Modulation</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="ToO3NQsY5P8"
-                data-title="Channel Lenght Modulation 2">
-                <span> Channel Lenght Modulation 2</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="HvgdMTvwUlE"
-                data-title="Comparison of BJT and MOS Technologies">
-                <span> Comparison of BJT and MOS Technologies</span>
-              </div>
-
-              
-
-
-
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">MOSFET Inverters</span>
-              <div class="caret"></div>
-            </div>
-            <div class="module-description">7 Lessons</div>
-            
-
-            <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="Zptbv1kOvoQ"
-                data-title="nMOS Inverter">
-                <span> nMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="BWo7PlCZAPc"
-                data-title="Noise Margin">
-                <span> Noise Margin</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="SBVErjUtO0M"
-                data-title="Resistive Load Inverter">
-                <span> Resistive Load Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="q-ZE7E5x5XM"
-                data-title="Depletion Load nMOS Inverters">
-                <span> Depletion Load nMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="kvR_UabB108"
-                data-title="CMOS Inverter">
-                <span> CMOS Inverters</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="wcz1vHHI_dw"
-                data-title="VTC of CMOS Inverter">
-                <span> VTC of CMOS Inverter</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="_3FnDgNuC-8"
-                data-title="CMOS Inverter Parameters">
-                <span> CMOS Inverter Parameters</span>
-              </div>
-
-              
-            </div>
-          </div>
-
-          <div class="module-container">
-            <div class="module" tabindex="0">
-              <span class="module-name">MOS Circuit Design Styles</span>
+              <span class="module-name">Introduction to Machine Learning</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">5 Lessons</div>
@@ -228,43 +85,44 @@
 
               <div
                 tabindex="0"
-                class="module-lesson"
-                data-id="/UCwYrYJKTY8"
-                data-title="Static CMOS Style">
-                <span> Static CMOS</span>
+                class="module-lesson selected-lesson"
+                data-id="Y4qO9unerGs"
+                data-title="Introduction to ML ">
+                <span> Introduction to ML </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="5jZ3Kr7DAaA"
-                data-title="Pseudo nMOS and Dynamic Style">
-                <span> Pseudo nMOS and Dynamic Style</span>
+                data-id="4dwsSz_fNSQ"
+                data-title="Types of Machine Learning ">
+                <span> Types of Machine Learning </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="ZPZOqF8iacA"
-                data-title="C2MOS Style">
-                <span> C2MOS Style</span>
+                data-id="xnoKOq7Fkrc"
+                data-title="Issues in Machine Learning ">
+                <span> Issues in Machine Learning </span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="REt3wpgbKd8"
-                data-title="Pass Trasistor and Transmission Gate">
-                <span> Pass Trasistor and Transmission Gate</span>
+                data-id="tBdiUG28K7U"
+                data-title="Application of machine learning">
+                <span> Application of machine learning</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="O0Uv4fxUdFs"
-                data-title="Pass Trasistor and Transmission Gate 2">
-                <span> Pass Trasistor and Transmission Gate 2</span>
+                data-id="GyrhVZnKM00"
+                data-title="Steps in developing machine learning ">
+                <span> Steps in developing machine learning </span>
               </div>
+
 
 
             </div>
@@ -272,7 +130,102 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Combinational & Sequential Circuit Realization</span>
+              <span class="module-name">Introduction to Neural Network </span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">4 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="EYeF2e2IKEo"
+                data-title="Introduction to Neural Networks">
+                <span> Introduction to Neural Networks</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="6fXNiJXUheI"
+                data-title="Evolution of neural network">
+                <span> Evolution of neural network</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="dl8C8enkBwo"
+                data-title="Biological Neural Network">
+                <span> Biological Neural Network</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="5PWHcSRn2W4"
+                data-title="McCulloch Pitts Neuron Model">
+                <span> McCulloch Pitts Neuron Model</span>
+              </div>
+
+
+              
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Introduction to Optimisation Techniques</span>
+              <div class="caret"></div>
+            </div>
+            <div class="module-description">4 Lessons</div>
+            
+
+            <div class="module-items items-hidden">
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="rNU2dSL4Yrw"
+                data-title="Steepest Descent Method">
+                <span> Steepest Descent Method</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="-5e2cULI3H8"
+                data-title="Newton's Method">
+                <span> Newton's Method</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="hxq0HbGDniM"
+                data-title="Random Search Algorithm">
+                <span> Random Search Algorithm</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="3SiWtAnUROs"
+                data-title="Hill Climbing Algorithm">
+                <span> Hill Climbing Algorithm</span>
+              </div>
+
+            
+
+
+            </div>
+          </div>
+
+          <div class="module-container">
+            <div class="module" tabindex="0">
+              <span class="module-name">Learning with Regression and trees</span>
               <div class="caret"></div>
             </div>
             <div class="module-description">6 Lessons</div>
@@ -280,122 +233,130 @@
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="-S2XckLOiO8"
-                data-title="Introduction to Compensator">
-                <span> Introduction to Compensator</span>
+                data-id="lzGKRSvs5HM"
+                data-title="Linear Regression">
+                <span> Linear Regression</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="QYNJC9EhxIc"
-                data-title="Lead Compensator">
-                <span> Lead Compensator</span>
+                data-id="VImxF-9jk1E"
+                data-title="Logistic Regression">
+                <span> Logistic Regression</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="saAxBnK06Lg"
-                data-title="Effects of Lead Compensator">
-                <span> Effects of Lead Compensator</span>
+                data-id="RVuy1ezN_qA"
+                data-title="Decision Tree Algorithm Pt 1">
+                <span> Decision Tree Algorithm Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="4QBEC2ku6ws"
-                data-title="Lag Compensator">
-                <span> Lag Compensator</span>
+                data-id="ffZ0ShPi-wg"
+                data-title="Decision Tree Algorithm Pt 2">
+                <span> Decision Tree Algorithm Pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="l0Gph3F3Ikc"
-                data-title="Effects of Lag Compensator">
-                <span> Effects of Lag Compensator</span>
+                data-id="-W0DnxQK1Eo"
+                data-title="Gini Index and Entropy">
+                <span> Gini Index and Entropy</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="d-iPshIZS_I"
-                data-title="Lag Lead Compensator">
-                <span> Lag Lead Compensator</span>
-              </div> -->
+                data-id="gYSWrUP4aB0"
+                data-title="Classification and Regression Trees">
+                <span> Classification and Regression Trees</span>
+              </div>
 
             </div>
           </div>
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Semiconductor Memories</span>
+              <span class="module-name">Learning with Classifications and clustering </span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">8 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="BgaTRpitlGY"
-                data-title="Introduction to State Space Analysis">
-                <span> Introduction to State Space Analysis</span>
+                data-id="fmZaVTpRO-Q"
+                data-title="Rule-based Classifier">
+                <span> Rule-based Classifier</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="DSvBXXnZv34"
-                data-title="State Model">
-                <span> State Model</span>
+                data-id="Fv_LGQKgWi0"
+                data-title="Bayesian Theorem">
+                <span> Bayesian Theorem</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vr2kQpRb-QI"
-                data-title="State Transition Matrix">
-                <span> State Transition Matrix</span>
+                data-id="n4wcvdc_2D4"
+                data-title="Hidden Markov Model">
+                <span> Hidden Markov Model</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MNu7njsgNvc"
-                data-title="Problem 1 on State Transition Matrix">
-                <span> Problem 1 on State Transition Matrix</span>
+                data-id="xLkk6MUrvrw"
+                data-title="Support Vector Machine (SVM) Pt 1">
+                <span> Support Vector Machine (SVM) Pt 1</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="7oU9jVBXOWk"
-                data-title="Problem 2 on State Transition Matrix">
-                <span> Problem 2 on State Transition Matrix</span>
+                data-id="0MJTaPoHv-g"
+                data-title="Support Vector Machine (SVM) Pt 2">
+                <span> Support Vector Machine (SVM) Pt 2</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="vY2Byo2SJ48"
-                data-title="Derivation of Transfer Function from State Model">
-                <span> Derivation of Transfer Function from State Model</span>
+                data-id="Q7vT0--5VII"
+                data-title="The Kernel Trick in Support Vector Machine">
+                <span> The Kernel Trick in Support Vector Machine</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="S4_rIjCC70w"
-                data-title="Controllability and Observability">
-                <span> Controllability and Observability</span>
-              </div> -->
+                data-id="pe6e9rItxwU"
+                data-title="Supervised Learning after Clustering">
+                <span> Supervised Learning after Clustering</span>
+              </div>
+
+              <div
+                tabindex="0"
+                class="module-lesson"
+                data-id="pAJSisdFpeI"
+                data-title="Radial Basis Functions">
+                <span> Radial Basis Functions</span>
+              </div>
 
 
 
@@ -404,75 +365,53 @@
 
           <div class="module-container">
             <div class="module" tabindex="0">
-              <span class="module-name">Data Path Design</span>
+              <span class="module-name">Dimensionally Reduction</span>
               <div class="caret"></div>
             </div>
-            <div class="module-description">7 Lessons</div>
+            <div class="module-description">4 Lessons</div>
             
 
             <div class="module-items items-hidden">
 
-              <!-- <div
+              <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="uL2_yBZZ6Qg"
-                data-title="Derivative Controller">
-                <span> Derivative Controller</span>
+                data-id="P6YqqCEYejk"
+                data-title="Dimensionality reduction Methods">
+                <span> Dimensionality reduction Methods</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MwTFwK1OeCc"
-                data-title="Integral Controller">
-                <span> Integral Controller</span>
+                data-id="NGHBniMyteo"
+                data-title="Singular Value Decomposition ">
+                <span> Singular Value Decomposition </span>
               </div>
               
               
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="MaFxKVOnStg"
-                data-title="Proportional Derivative (PD) Controller">
-                <span> Proportional Derivative (PD) Controller</span>
+                data-id="2WY7wCghSVI"
+                data-title="Independent Components Analysis">
+                <span> Independent Components Analysis</span>
               </div>
 
               <div
                 tabindex="0"
                 class="module-lesson"
-                data-id="lVQxEwxVqgk"
-                data-title="Proportional Integral (PI) Controller">
-                <span> Proportional Integral (PI) Controller</span>
+                data-id="83x5X66uWK0"
+                data-title="Basics Of Principal Component Analysis ">
+                <span> Basics Of Principal Component Analysis</span>
               </div>
 
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="R8ldRXmqhMo"
-                data-title="Proportional Integral Derivative (PID) Controller">
-                <span> Proportional Integral Derivative (PID) Controller</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="eyqLLrYznxo"
-                data-title="Pole Placement Method">
-                <span> Pole Placement Method</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="XOl9tbTgqFI"
-                data-title="Ackermann's Method">
-                <span> Ackermann's Method</span>
-              </div> -->
+              
 
             </div>
           </div>
 
-          <div class="module-container">
+          <!-- <div class="module-container">
             <div class="module" tabindex="0">
               <span class="module-name">Important Notes</span>
               <div class="caret"></div>
@@ -538,7 +477,7 @@
               
               
             </div>
-          </div>
+          </div> -->
 
           
 
