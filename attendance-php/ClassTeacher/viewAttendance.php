@@ -81,7 +81,8 @@ include '../Includes/session.php';
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
-                        <th>#</th>
+                      <th>Status</th>
+                        <th>Roll No.</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Other Name</th>
@@ -90,7 +91,6 @@ include '../Includes/session.php';
                         <th>Class Arm</th>
                         <th>Session</th>
                         <th>Term</th>
-                        <th>Status</th>
                         <th>Date</th>
                       </tr>
                     </thead>
@@ -125,6 +125,7 @@ include '../Includes/session.php';
                              $sn = $sn + 1;
                             echo"
                               <tr>
+                              <td style='background-color:".$colour."'>".$status."</td>
                                 <td>".$sn."</td>
                                  <td>".$rows['firstName']."</td>
                                 <td>".$rows['lastName']."</td>
@@ -134,7 +135,6 @@ include '../Includes/session.php';
                                 <td>".$rows['classArmName']."</td>
                                 <td>".$rows['sessionName']."</td>
                                 <td>".$rows['termName']."</td>
-                                <td style='background-color:".$colour."'>".$status."</td>
                                 <td>".$rows['dateTimeTaken']."</td>
                               </tr>";
                           }

@@ -241,7 +241,7 @@ $totAttendance = mysqli_num_rows($query1);
         <!---Container Fluid-->
       </div>
       <!-- Footer -->
-      <?php include 'includes/footer.php';?>
+      
       <!-- Footer -->
     </div>
   </div>

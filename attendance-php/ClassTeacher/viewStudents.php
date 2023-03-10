@@ -95,7 +95,7 @@ $query = "SELECT tblclass.className,tblclassarms.classArmName
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
-                        <th>#</th>
+                        <th>Roll No.</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Other Name</th>

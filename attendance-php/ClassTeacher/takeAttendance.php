@@ -147,7 +147,7 @@ if(isset($_POST['save'])){
         <!-- Container Fluid-->
         <div class="container-fluid" id="container-wrapper">
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0">Take Attendance (Today's Date : <?php echo $todaysDate = date("m-d-Y");?>)</h1>
+            <h1 class="h3 mb-0">Take Attendance (Today's Date : <?php echo $todaysDate = date("d-m-Y");?>)</h1>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">All Student in Class</li>
@@ -173,14 +173,14 @@ if(isset($_POST['save'])){
                   <table class="table align-items-center table-flush table-hover">
                     <thead class="thead-light">
                       <tr>
-                        <th>#</th>
+                        <th>Check</th>
+                        <th>Roll No.</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Other Name</th>
                         <th>Admission No</th>
                         <th>Class</th>
                         <th>Class Arm</th>
-                        <th>Check</th>
                       </tr>
                     </thead>
                     
@@ -204,6 +204,7 @@ if(isset($_POST['save'])){
                              $sn = $sn + 1;
                             echo"
                               <tr>
+                              <td><input name='check[]' type='checkbox' value=".$rows['admissionNumber']." class='form-control'></td>
                                 <td>".$sn."</td>
                                 <td>".$rows['firstName']."</td>
                                 <td>".$rows['lastName']."</td>
@@ -211,7 +212,6 @@ if(isset($_POST['save'])){
                                 <td>".$rows['admissionNumber']."</td>
                                 <td>".$rows['className']."</td>
                                 <td>".$rows['classArmName']."</td>
-                                <td><input name='check[]' type='checkbox' value=".$rows['admissionNumber']." class='form-control'></td>
                               </tr>";
                               echo "<input name='admissionNo[]' value=".$rows['admissionNumber']." type='hidden' class='form-control'>";
                           }

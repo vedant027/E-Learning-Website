@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Sacramento&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7ZWFYJLWL"></script>

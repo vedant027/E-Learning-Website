@@ -7,7 +7,7 @@ include '../Includes/session.php';
         <table border="1">
         <thead>
             <tr>
-            <th>#</th>
+            <th>Roll No.</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Other Name</th>

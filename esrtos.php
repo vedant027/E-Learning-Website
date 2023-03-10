@@ -219,16 +219,7 @@
             </div>
             <div class="module-description">1 Lesson</div>
             
-
             <div class="module-items items-hidden">
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="muOL9SH0p9g"
-                data-title="Free RTOS">
-                <span> Free RTOS</span>
-              </div>
 
               <div
                 tabindex="0"
@@ -236,38 +227,6 @@
                 data-id="muOL9SH0p9g"
                 data-title="Introduction to Free RTOS">
                 <span> Introduction to Free RTOS</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="saAxBnK06Lg"
-                data-title="Effects of Lead Compensator">
-                <span> Effects of Lead Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="4QBEC2ku6ws"
-                data-title="Lag Compensator">
-                <span> Lag Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="l0Gph3F3Ikc"
-                data-title="Effects of Lag Compensator">
-                <span> Effects of Lag Compensator</span>
-              </div>
-
-              <div
-                tabindex="0"
-                class="module-lesson"
-                data-id="d-iPshIZS_I"
-                data-title="Lag Lead Compensator">
-                <span> Lag Lead Compensator</span>
               </div>
 
             </div>

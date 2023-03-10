@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
   <!-- CSS STYLESHEET -->
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7ZWFYJLWL"></script>

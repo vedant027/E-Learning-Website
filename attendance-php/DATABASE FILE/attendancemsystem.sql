@@ -162,7 +162,6 @@ INSERT INTO `tblclassteacher` (`Id`, `firstName`, `lastName`, `emailAddress`, `p
 (4, 'Demola', 'Ade', 'Kumolu@gmail.com', '32250170a0dca92d53ec9624f336ca24', '09672002882', '1', '4', '2020-11-01'),
 (5, 'Ryan', 'McQuie', 'ryan@mail.com', '32250170a0dca92d53ec9624f336ca24', '7014560000', '3', '5', '2021-10-07'),
 (6, 'John', 'Greenwood', 'jwood@mail.com', '32250170a0dca92d53ec9624f336ca24', '0100000030', '4', '6', '2021-10-07');
-
 -- --------------------------------------------------------
 
 --

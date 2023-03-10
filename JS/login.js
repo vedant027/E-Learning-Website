@@ -47,7 +47,7 @@ const signUp=()=>{
 	firebase.auth().createUserWithEmailAndPassword(email,password)
 	.then((result) => {
 	  // Signed Up 
-	  window.location.assign("login.html")
+	  window.location.assign("login.php")
 	  alert("Registration Successful !! Please Login ");
 	//   document.write("You are Signed Up")
 	//   console.log(result)
@@ -68,7 +68,7 @@ const signIn=()=>{
    firebase.auth().signInWithEmailAndPassword(email,password)
   .then((result) => {
     // Signed in
-	window.location.assign("index.html");
+	window.location.assign("index.php");
 	alert("Login Successfully");
     // document.write("You are Signed In")
 	// console.log(result)

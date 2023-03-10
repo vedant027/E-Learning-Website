@@ -15,7 +15,7 @@ Password: Password@123
 
 **Teacher Login Details**
 
-Email   : jwood@mail.com
+Email   : faculty@mail.com
 Password: pass123
 
 **Default password for teacher's account: pass123**
