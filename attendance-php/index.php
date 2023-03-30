@@ -33,9 +33,10 @@ session_start();
             <div class="row">
               <div class="col-lg-12 login-container">
                 <div class="login-form">
+                <h4 class="eduelex-home"><a href="../index.php">EduElex</a></h4>  
                 <h5 align="center" class="main-heading">STUDENT ATTENDANCE SYSTEM</h5>
                   <div class="text-center">
-                    <img src="img/logo/attnlg.jpg" style="width:100px;height:100px">
+                    <img class="login-img" src="img/logo/attnlg.jpg" style="width:100px;height:100px">
                     <br><br>
                     <h1 class="mb-4 sub-heading">Faculty Login Panel</h1>
                   </div>
@@ -60,7 +61,7 @@ session_start();
                           Me</label> -->
                       </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group1">
                         <input type="submit"  class="btn btn-success" value="Login" name="login" />
                     </div>
                      </form>
@@ -150,6 +151,7 @@ session_start();
 
                 
                   <div class="text-center">
+                  <p class="login-subinfo">Not a Faculty ? <a onclick="facultyLogin()"><span class="login-subtext">Go to EduElex </span></a></p>
                   </div>
                 </div>
               </div>
@@ -164,6 +166,12 @@ session_start();
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="js/ruang-admin.min.js"></script>
+  <script>
+    function facultyLogin() {
+	  window.location.href = '../index.php';
+   }
+  </script>
+
 </body>
 
 </html>

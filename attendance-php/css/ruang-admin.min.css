@@ -1652,6 +1652,9 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .main-heading {
+  position: relative;
+  top: 0.9rem;
+  left: 0.5rem;
   color: #000;
   font-size: 1.5rem;
   font-weight: 700;
@@ -1689,4 +1692,42 @@ h1 {
 .login-container {
   background-color: var(--color-bg);
 }
+
+.login-subinfo {
+  position: relative;
+  top: 0.5rem;
+  right: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.login-subtext {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-center a {
+  color: #000;
+}
+
+.login-img {
+  position: relative;
+  top: 0.9rem;
+}
+
+.eduelex-home a {
+  color: #fff;
+}
+
+.eduelex-home {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-align: center;
+  /* text-decoration: underline; */
+}
  
+.form-group1 {
+  position: relative;
+  right: 1.3rem;
+}
