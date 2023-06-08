@@ -47,7 +47,7 @@ const signUp=()=>{
 	firebase.auth().createUserWithEmailAndPassword(email,password)
 	.then((result) => {
 	  // Signed Up 
-	  window.location.assign("login.php")
+	  window.location.assign("login.html")
 	  alert("Registration Successful !! Please Login ");
 	//   document.write("You are Signed Up")
 	//   console.log(result)
@@ -68,7 +68,7 @@ const signIn=()=>{
    firebase.auth().signInWithEmailAndPassword(email,password)
   .then((result) => {
     // Signed in
-	window.location.assign("index.php");
+	window.location.assign("index.html");
 	alert("Login Successfully");
     // document.write("You are Signed In")
 	// console.log(result)
@@ -82,5 +82,5 @@ const signIn=()=>{
 
 // // Linking Faculty Login button to login panel
 // function facultyLogin() {
-// 	window.location.href = 'attendance-php/index.php';
+// 	window.location.href = 'attendance-html/index.html';
 // } 

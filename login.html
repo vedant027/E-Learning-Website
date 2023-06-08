@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduElex</title>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- GOOGLE FONTS (MONTSERRAT)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Sacramento&display=swap" rel="stylesheet">
+
+
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="CSS/login.css">
+
+  <!-- Firebase CDN -->
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth-compat.js"></script>
+  
+</head>
+
+
+<body>
+
+	<h1 class="main-heading">EduElex - <span class="main-heading-dynamictxt">Making Learning Simple 📖</span></h1>
+<div class="container" id="container">
+	<div class="row">   
+
+	<div class="form-container sign-up-container">
+		<form action="#">
+            <a href="index.html"><span class="crossmark">&times;</span></a>
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></i></a>
+				<a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></i></a>
+				<a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" id="name" placeholder="Name" />
+			<input type="email" id="email" placeholder="Email" />
+			<input type="password" id="password" placeholder="Password" autocomplete="on" />
+			<button class="ghost_pc"  onclick="signUp()">Sign Up</button>
+			<!-- Mobile SignIn -->
+			<p id="mobile_para">To keep connected with us, please login !!</p>
+		    <button class="ghost_mobile" id="signIn_mobile">Sign In</button>
+		</form>
+	</div>
+
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1 class="signin-heading">Sign In</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></i></a>
+				<a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+				<a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" id="email-signIn" placeholder="Email" />
+			<input type="password" id="password-signIn" placeholder="Password" autocomplete="on" />
+			<!-- <a href="#">Forgot your password?</a> -->
+			<button class="ghost_pc" onclick="signIn()">Sign In</button>
+			<!-- <a href="attendance-html/index.html" class="ghost_pc" id="ghost_pc1">Faculty Login</a> -->
+			<!-- Mobile SignUp -->
+			<p id="mobile_para">Don't have an account? Sign up here !!</p>
+			<button class="ghost_mobile" id="signUp_mobile">Sign Up</button>
+			
+
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1 class="overlay-left-heading">Welcome to EduElex!</h1>
+				<p>Enter your personal details and start your journey with us</p>
+				<div class="btn-p-overlay-left">
+				<p>Already have an Account !!</p>
+				<button class="ghost ghost-overlay-left" id="signIn">Sign In</button>
+			</div>
+			</div>
+			<div class="overlay-panel overlay-right">
+                <a href="index.html"><span class="crossmark">&times;</span></a>
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info<br><br>-------------- or ---------------- </p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- JS -->
+<script src="JS/login.js"></script>
+
+</body>
+</html>
